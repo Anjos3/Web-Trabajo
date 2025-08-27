@@ -4,7 +4,7 @@ export const mallaIngenieriaAmbientalUNI: MallaCurricular = {
   universidad: "UNI",
   carrera: "Ingeniería Ambiental",
   creditosObligatorios: 227,
-  cursosIA_BigData: 10, // Big Data (7) + Tecnologías Emergentes (3)
+  cursosIA_BigData: 10, // Big Data (7) + tecnologías emergentes (3)
   ciclos: [
     { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Introducción a la Ingeniería Ambiental", creditos: 0, ciclo: 1 }, { nombre: "Introducción a la Computación", creditos: 0, ciclo: 1 }, { nombre: "Química I", creditos: 0, ciclo: 1 }, { nombre: "Cálculo Diferencial", creditos: 0, ciclo: 1 }, { nombre: "Álgebra Lineal", creditos: 0, ciclo: 1 }, { nombre: "Ética y Filosofía Política", creditos: 0, ciclo: 1 }, { nombre: "Redacción y Comunicación", creditos: 0, ciclo: 1 }] },
     { numero: 2, creditosTotales: 0, cursos: [{ nombre: "Biología General", creditos: 0, ciclo: 2 }, { nombre: "Dibujo Cartográfico", creditos: 0, ciclo: 2 }, { nombre: "Lenguaje de Programación", creditos: 0, ciclo: 2 }, { nombre: "Física I", creditos: 0, ciclo: 2 }, { nombre: "Química II", creditos: 0, ciclo: 2 }, { nombre: "Cálculo Integral", creditos: 0, ciclo: 2 }, { nombre: "Realidad Nacional, Constitución y Derechos Humanos", creditos: 0, ciclo: 2 }] },
@@ -24,7 +24,7 @@ export const mallaIngenieriaAmbientalPUCP: MallaCurricular = {
   universidad: "PUCP",
   carrera: "Ingeniería Ambiental",
   creditosObligatorios: 209,
-  cursosIA_BigData: 8, // Big Data (3) + Tecnologías Emergentes (5)
+  cursosIA_BigData: 8, // Big Data (3) + tecnologías emergentes (5)
   ciclos: [
     { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Álgebra matricial y geometría analítica", creditos: 0, ciclo: 1 }, { nombre: "Fundamentos de cálculo", creditos: 0, ciclo: 1 }, { nombre: "Fundamentos de física", creditos: 0, ciclo: 1 }, { nombre: "Química 1", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de química 1", creditos: 0, ciclo: 1 }, { nombre: "Taller de innovación en ingeniería ambiental", creditos: 0, ciclo: 1 }, { nombre: "Comunicación académica", creditos: 0, ciclo: 1 }] },
     { numero: 2, creditosTotales: 0, cursos: [{ nombre: "Cálculo diferencial", creditos: 0, ciclo: 2 }, { nombre: "Física 1", creditos: 0, ciclo: 2 }, { nombre: "Laboratorio de física 1", creditos: 0, ciclo: 2 }, { nombre: "Química 2", creditos: 0, ciclo: 2 }, { nombre: "Laboratorio de química 2", creditos: 0, ciclo: 2 }, { nombre: "Taller de ingeniería ambiental y sostenible", creditos: 0, ciclo: 2 }, { nombre: "Trabajo académico", creditos: 0, ciclo: 2 }, { nombre: "Antropología", creditos: 0, ciclo: 2 }] },
@@ -44,7 +44,7 @@ export const mallaIngenieriaAmbientalUTEC: MallaCurricular = {
   universidad: "UTEC",
   carrera: "Ingeniería Ambiental",
   creditosObligatorios: 214,
-  cursosIA_BigData: 9, // Big Data (4) + Tecnologías Emergentes (4) + IA (1)
+  cursosIA_BigData: 9, // Big Data (4) + tecnologías emergentes (4) + IA (1)
   ciclos: [
     { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Programación I", creditos: 0, ciclo: 1 }, { nombre: "Cálculo de una Variable", creditos: 0, ciclo: 1 }, { nombre: "Química General", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de Química General", creditos: 0, ciclo: 1 }, { nombre: "Introducción a la Ingeniería Ambiental", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de Comunicación 1", creditos: 0, ciclo: 1 }, { nombre: "Proyectos Interdisciplinarios 1", creditos: 0, ciclo: 1 }] },
     { numero: 2, creditosTotales: 0, cursos: [{ nombre: "Programación II", creditos: 0, ciclo: 2 }, { nombre: "Cálculo Vectorial", creditos: 0, ciclo: 2 }, { nombre: "Álgebra Lineal", creditos: 0, ciclo: 2 }, { nombre: "Química Orgánica", creditos: 0, ciclo: 2 }, { nombre: "Biología, Ecología y Recursos Naturales", creditos: 0, ciclo: 2 }, { nombre: "Laboratorio de Comunicación 2", creditos: 0, ciclo: 2 }] },
@@ -72,7 +72,7 @@ export const puntajesComparativosIngenieriaAmbiental: PuntajeComparativo[] = [
     justificacion: "Las tres universidades tienen una base científica sólida. La UNI destaca ligeramente por su tradicional rigor y la inclusión de tres físicas, además de cursos como Físico-Química Aplicada, que profundizan la base científica del ingeniero."
   },
   {
-    categoria: "Cursos de IA,Big data y tecnologías emergentes",
+    categoria: "Cursos de IA, Big Data y tecnologías emergentes",
     puntajes: { "UNI": 9.0, "PUCP": 7.5, "UTEC": 8.0 },
     justificacion: "Sorprendentemente, la UNI lidera en este criterio con 10 cursos relevantes, incluyendo 'Simulación y Modelamiento Ambiental' y 'Sistema de Información Geográfica'. PUCP y UTEC tienen una oferta menor (8 cursos cada una) y más generalista."
   },

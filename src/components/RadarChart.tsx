@@ -132,7 +132,7 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
         <div className="p-8 border-b-4 border-purple-200">
           <div className="text-center mb-4">
             <h3 className="text-4xl font-black bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text mb-2">
-              📊 Análisis Radar Comparativo
+              📊 Análisis radar comparativo
             </h3>
             <div className="w-48 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full mb-4"></div>
             <p className="text-gray-700 text-lg font-semibold">🎯 Puntuación basada en datos objetivos de las mallas curriculares (escala 1-10)</p>
@@ -148,7 +148,7 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
           
           {selectedPoint === null && (
             <div className="bg-gradient-to-r from-indigo-100 to-purple-100 border-2 border-indigo-300 rounded-2xl p-6 max-w-2xl text-center">
-              <h4 className="text-xl font-black text-indigo-800 mb-3">🖱️ Interacción Disponible</h4>
+              <h4 className="text-xl font-black text-indigo-800 mb-3">🖱️ Interacción disponible</h4>
               <p className="text-indigo-700 font-semibold">
                 Haz clic en cualquier punto del polígono para ver el análisis detallado de esa dimensión
               </p>
@@ -159,7 +159,7 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
             <div className="w-full max-w-4xl slide-in-up">
               <div className="bg-gradient-to-r from-indigo-50 to-purple-50 border-2 border-indigo-200 rounded-2xl p-8 shadow-xl">
                 <div className="flex justify-between items-center mb-6">
-                  <h4 className="text-2xl font-black text-gray-800">🔍 Análisis Detallado</h4>
+                  <h4 className="text-2xl font-black text-gray-800">🔍 Análisis detallado</h4>
                   <button 
                     onClick={() => setSelectedPoint(null)}
                     className="text-gray-500 hover:text-gray-700 text-2xl font-bold"

@@ -277,7 +277,7 @@ export const puntajesComparativos: PuntajeComparativo[] = [
     justificacion: "UNI presenta cursos como 'Cálculo Diferencial e Integral Avanzado' (7 créditos), 'Matemática Computacional' (4 créditos), 'Análisis y Modelamiento Numérico I' (5 créditos). Sin embargo, la concentración excesiva de créditos genera rigidez. UTEC distribuye mejor la formación matemática con 'Cálculo Vectorial', 'Ecuaciones Diferenciales', 'Métodos Numéricos', permitiendo mayor flexibilidad."
   },
   {
-    categoria: "Cursos de IA/Big Data/Tecnologías Emergentes",
+    categoria: "Cursos de IA/Big Data/tecnologías emergentes",
     puntajes: { "UNI": 7.5, "UTEC": 8.5 },
     justificacion: "Ambas universidades tienen 31 cursos relacionados a tecnologías. UNI incluye 'Inteligencia Artificial', 'Minería de Datos', 'Programación Evolutiva', 'Análisis en Macrodatos', 'Robótica', 'Computación Gráfica', 'Infraestructura de Computación'. UTEC se destaca con nomenclatura más moderna: 'Machine Learning', 'Cloud Computing', 'Internet de las Cosas', 'Desarrollo Basado en Plataformas'. La ventaja de UTEC radica en la actualización semántica que conecta mejor con el mercado laboral."
   },
@@ -305,7 +305,7 @@ export const analisisFODA: AnalisisFODA = {
     "Establecer alianzas estratégicas con líderes tecnológicos para actualizar laboratorios y generar oportunidades de prácticas profesionales."
   ],
   debilidades: [
-    "Deficiencia crítica en cursos de IA/Big Data/Tecnologías emergentes: solo 8 cursos frente a 12 de UTEC. La UNI carece de cursos clave como 'Machine Learning', 'Cloud Computing' e 'Internet de las Cosas'.",
+    "Deficiencia crítica en cursos de IA/Big Data/tecnologías emergentes: solo 8 cursos frente a 12 de UTEC. La UNI carece de cursos clave como 'Machine Learning', 'Cloud Computing' e 'Internet de las Cosas'.",
     "Sobrecarga académica severa con 200 créditos totales. Ciclos como el 2°, 3°, 4°, 6° y 7° exigen 6 asignaturas simultáneas, generando estrés académico y aprendizaje superficial.",
     "Ausencia total de cursos de integración interdisciplinaria. No existe equivalente a los 'Proyectos Interdisciplinarios' que UTEC implementa desde el primer ciclo, limitando la preparación para problemas complejos del mundo real.",
     "Exceso de créditos en cursos individuales como 'Cálculo Diferencial e Integral Avanzado' (7 créditos), reduciendo flexibilidad curricular y capacidad de adaptación tecnológica.",
@@ -320,7 +320,7 @@ export const analisisFODA: AnalisisFODA = {
 
 export const planAccion: PlanAccion[] = [
   {
-    titulo: "Plan de Incorporación Urgente de Cursos de IA y Tecnologías Emergentes",
+    titulo: "Plan de Incorporación Urgente de Cursos de IA y tecnologías emergentes",
     descripcion: "Crear inmediatamente 4 nuevos cursos obligatorios para cerrar la brecha crítica: 'Machine Learning Aplicado' (4 créditos), 'Cloud Computing y Arquitecturas Escalables' (4 créditos), 'Internet de las Cosas y Sistemas Embebidos' (3 créditos), 'Deep Learning y Redes Neuronales' (3 créditos). Reubicar en ciclos 6, 7, 8 y 9 respectivamente.",
     prioridad: "Crítica",
     plazo: "Inmediato (6 meses)"

@@ -44,7 +44,7 @@ export default function CurriculumGrid({ mallas }: CurriculumGridProps) {
                 </div>
                 <div className="bg-gradient-to-br from-emerald-400 to-teal-500 p-4 rounded-2xl text-white shadow-lg">
                   <div className="text-3xl font-black">🤖 {malla.cursosIA_BigData}</div>
-                  <div className="text-sm font-semibold opacity-90">Cursos relacionados a IA,big data y tecnologías emergentes</div>
+                  <div className="text-sm font-semibold opacity-90">Cursos relacionados a IA, Big Data y tecnologías emergentes</div>
                 </div>
               </div>
             </div>

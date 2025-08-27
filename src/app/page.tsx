@@ -120,7 +120,7 @@ export default function Home() {
               <div className="flex justify-center items-center gap-6 text-white">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">🤖</span>
-                  <span className="text-sm font-semibold">Cursos de IA/Big Data/Ciencia de Datos</span>
+                  <span className="text-sm font-semibold">Cursos de IA/Big Data/Ciencia de datos</span>
                   <span className="text-xs bg-cyan-600 text-white px-2 py-1 rounded-full">IA/Data</span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -157,7 +157,7 @@ export default function Home() {
             <div className="w-12 h-1 bg-yellow-400 rounded-full"></div>
           </div>
           <p className="text-blue-200 text-sm mt-4 font-medium">
-            🚀 Impulsando la Excelencia Académica del Futuro
+            🚀 Impulsando la excelencia académica del futuro
           </p>
         </div>
       </footer>

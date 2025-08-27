@@ -72,7 +72,7 @@ export const puntajesComparativosIngenieriaIndustrial: PuntajeComparativo[] = [
     justificacion: "La UNI mantiene su tradicional fortaleza en ciencias básicas, con una secuencia robusta de Cálculo, Física y Química, lo que le otorga una base de ingeniería clásica muy sólida."
   },
   {
-    categoria: "Cursos de IA,Big data y tecnologías emergentes",
+    categoria: "Cursos de IA, Big Data y tecnologías emergentes",
     puntajes: { "UNI": 6.0, "PUCP": 8.5, "UTEC": 9.0 },
     justificacion: "UTEC y PUCP muestran una clara superioridad. UTEC lidera con 10 cursos relevantes, incluyendo 'Data Analytics'. PUCP le sigue con 8, destacando su secuencia de 'Analytics 1 y 2'. La UNI está visiblemente rezagada con solo 5 cursos y una nomenclatura menos actual."
   },
@@ -94,7 +94,7 @@ export const analisisFODAUNI: AnalisisFODA = {
     "Currículo con una base científica y matemática rigurosa, fiel al prestigio histórico de la UNI."
   ],
   oportunidades: [
-    "Crear un eje de especialización en 'Ciencia de Datos para la Industria', modernizando cursos como 'Investigación de Operaciones' para incluir optimización y analítica avanzada.",
+    "Crear un eje de especialización en 'Ciencia de datos para la Industria', modernizando cursos como 'Investigación de Operaciones' para incluir optimización y analítica avanzada.",
     "Rediseñar la malla para balancear la carga académica, que actualmente concentra 7 cursos en varios ciclos (1ro, 2do, 5to, 6to, 7mo), y así permitir una mayor profundización.",
     "Implementar un 'Proyecto Integrador de Ingeniería Industrial' en el último año, donde los estudiantes resuelvan un problema real de una empresa."
   ],

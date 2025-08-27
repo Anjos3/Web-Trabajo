@@ -72,7 +72,7 @@ export const puntajesComparativosIngenieriaCivil: PuntajeComparativo[] = [
     justificacion: "Las tres universidades muestran una base sólida. Sin embargo, la UNI mantiene su tradicional rigor con cursos como 'Matemática III' y 'Matemática IV', lo que le confiere una ligera ventaja en profundidad teórica."
   },
   {
-    categoria: "Cursos de IA,Big data y tecnologías emergentes",
+    categoria: "Cursos de IA, Big Data y tecnologías emergentes",
     puntajes: { "UNI": 6.0, "UTEC": 9.0, "PUCP": 7.0 },
     justificacion: "UTEC lidera claramente con 9 cursos orientados a la tecnología, como 'Programación I y II' y 'Tecnologías Aplicadas en Ingeniería Civil'. La UNI muestra una brecha significativa con solo 4 cursos, y la PUCP se encuentra en una posición intermedia."
   },

@@ -52,7 +52,7 @@ export const puntajesComparativosIngenieriaSistemas: PuntajeComparativo[] = [
     justificacion: "Ambas mallas son robustas. La UNI muestra una ligera ventaja por su enfoque tradicionalmente profundo en ciencias básicas, con cursos como 'Cálculo Diferencial', 'Cálculo Integral' y 'Física I y II' como pilares iniciales."
   },
   {
-    categoria: "Cursos de IA,Big data y tecnologías emergentes",
+    categoria: "Cursos de IA, Big Data y tecnologías emergentes",
     puntajes: { "UNI": 7.0, "PUCP": 9.0 },
     justificacion: "La PUCP tiene una ventaja clara con 21 cursos en el área y la inclusión explícita de 'Inteligencia Artificial'. La UNI, con 18 cursos, tiene una base sólida pero carece de asignaturas con un posicionamiento semántico igualmente fuerte y moderno."
   },

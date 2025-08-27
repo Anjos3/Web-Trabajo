@@ -21,10 +21,10 @@ export default function RootLayout({
             </h1>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
               <p className="text-2xl text-white font-semibold">
-                🚀 Análisis Estratégico de Mallas Curriculares
+                🚀 Análisis estratégico de mallas curriculares
               </p>
               <p className="text-lg text-blue-200 mt-2">
-                Impulsando la Excelencia Académica del Futuro
+                Impulsando la excelencia académica del futuro
               </p>
             </div>
           </header>
