@@ -27,8 +27,8 @@ export interface AnalisisFODA {
 export interface PlanAccion {
   titulo: string;
   descripcion: string;
-  prioridad: 'Alta' | 'Media' | 'Baja';
-  plazo: 'Corto' | 'Mediano' | 'Largo';
+  prioridad: 'Crítica' | 'Alta' | 'Media' | 'Baja';
+  plazo: 'Inmediato (6 meses)' | 'Corto (1 año)' | 'Corto (8 meses)' | 'Inmediato (4 meses)' | 'Mediano (1.5 años)' | 'Mediano (2 años)' | 'Corto' | 'Mediano' | 'Largo';
 }
 
 export interface PuntajeComparativo {
