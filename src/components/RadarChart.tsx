@@ -10,7 +10,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import { Radar, type ChartJSOrUndefined } from 'react-chartjs-2';
+import { Radar } from 'react-chartjs-2';
 import { PuntajeComparativo } from '@/types';
 
 ChartJS.register(
@@ -37,7 +37,7 @@ const getUniversityStyle = (uni: string) => universityColors[uni] || universityC
 
 export default function RadarChart({ puntajes }: RadarChartProps) {
   const [selectedPoint, setSelectedPoint] = useState<number | null>(null);
-  const chartRef = useRef<ChartJSOrUndefined<"radar", number[], string>>(null);
+  const chartRef = useRef(null);
 
   const labels = puntajes.map(p => p.categoria);
   const universities = puntajes.length > 0 ? Object.keys(puntajes[0].puntajes) : [];
