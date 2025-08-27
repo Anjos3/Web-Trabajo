@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import {
   Chart as ChartJS,
   RadialLinearScale,
@@ -37,7 +37,7 @@ const getUniversityStyle = (uni: string) => universityColors[uni] || universityC
 
 export default function RadarChart({ puntajes }: RadarChartProps) {
   const [selectedPoint, setSelectedPoint] = useState<number | null>(null);
-  const chartRef = useRef<any>(null);
+  const chartRef = useRef<HTMLCanvasElement>(null);
 
   const labels = puntajes.map(p => p.categoria);
   const universities = puntajes.length > 0 ? Object.keys(puntajes[0].puntajes) : [];
@@ -105,7 +105,7 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
         }
       },
     },
-    onClick: (event: any, elements: any) => {
+    onClick: (event: MouseEvent, elements: Array<{index: number}>) => {
       if (elements.length > 0) {
         const pointIndex = elements[0].index;
         setSelectedPoint(pointIndex === selectedPoint ? null : pointIndex);
@@ -117,7 +117,7 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
       intersect: false,
       mode: 'nearest' as const,
     },
-    onHover: (event: any, elements: any) => {
+    onHover: (event: {native?: {target?: HTMLElement}}, elements: Array<unknown>) => {
       if (event.native?.target) {
         event.native.target.style.cursor = elements.length > 0 ? 'pointer' : 'default';
       }
