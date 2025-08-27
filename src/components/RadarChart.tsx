@@ -9,6 +9,8 @@ import {
   Filler,
   Tooltip,
   Legend,
+  type ChartEvent,
+  type ActiveElement,
 } from 'chart.js';
 import { Radar } from 'react-chartjs-2';
 import { PuntajeComparativo } from '@/types';
@@ -105,7 +107,7 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
         }
       },
     },
-    onClick: (event: MouseEvent, elements: Array<{index: number}>) => {
+    onClick: (event: ChartEvent, elements: ActiveElement[]) => {
       if (elements.length > 0) {
         const pointIndex = elements[0].index;
         setSelectedPoint(pointIndex === selectedPoint ? null : pointIndex);
@@ -117,9 +119,9 @@ export default function RadarChart({ puntajes }: RadarChartProps) {
       intersect: false,
       mode: 'nearest' as const,
     },
-    onHover: (event: {native?: {target?: HTMLElement}}, elements: Array<unknown>) => {
-      if (event.native?.target) {
-        event.native.target.style.cursor = elements.length > 0 ? 'pointer' : 'default';
+    onHover: (event: ChartEvent, elements: ActiveElement[]) => {
+      if (event.native && event.native.target) {
+        (event.native.target as HTMLElement).style.cursor = elements.length > 0 ? 'pointer' : 'default';
       }
     }
   };
