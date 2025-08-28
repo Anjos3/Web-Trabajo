@@ -451,12 +451,6 @@ export const planAccionUNI: PlanAccion[] = [
     plazo: "Largo"
   },
   {
-    titulo: "Creación del Eje de Proyectos Integradores Empresariales",
-    descripcion: "Instaurar 3 'Proyectos de Ingeniería Industrial Aplicada': Ciclo 4 (2 créditos, diagnóstico empresarial), Ciclo 7 (4 créditos, proyecto de mejora), Ciclo 9 (6 créditos, consultoría integral). Partnering con empresas mineras, manufactureras y de servicios. Esta innovación curricular se fundamenta en el artículo 40 de la Ley Universitaria para actualización por avances tecnológicos, emulando modelo UTEC para generar portfolio estudiantil competitivo.",
-    prioridad: "Alta",
-    plazo: "Mediano"
-  },
-  {
     titulo: "Modernización Curricular con Nomenclatura Industria 4.0",
     descripcion: "Actualizar denominaciones y contenidos: 'Investigación de Operaciones I-II' → 'Analítica Avanzada y Optimización de Procesos', 'Lenguaje de Programación' → 'Programación Python para Ingeniería Industrial', 'Automatización y Control' → 'Industry 4.0 y Sistemas Ciber-físicos'. Incluir certificaciones industriales (Six Sigma, SAP, Microsoft Power Platform). Reforma amparada en artículo 40 de la Ley Universitaria por conveniencia de avances tecnológicos.",
     prioridad: "Media",
