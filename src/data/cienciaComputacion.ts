@@ -302,12 +302,10 @@ export const analisisFODA: AnalisisFODA = {
   ],
   oportunidades: [
     "El artículo 40 de la Ley Universitaria ampara la actualización de planes de estudio cada 3 años o cuando sea conveniente según avances científicos y tecnológicos, justificando la modernización urgente en IA, Machine Learning y Big Data.",
-    "Implementar un eje de proyectos integradores respaldado por el marco legal de actualización curricular, conectando teoría con aplicaciones reales y capitalizando el prestigio institucional.",
     "Establecer alianzas estratégicas con líderes tecnológicos para casos de estudio actualizados, aprovechando la flexibilidad legal para modificaciones curriculares por conveniencia tecnológica."
   ],
   debilidades: [
     "Sobrecarga académica con 200 créditos, aunque cumple el mínimo establecido en artículos 41 y 42 de la Ley Universitaria, la concentración excesiva en ciclos como el 2°, 3°, 4°, 6° y 7° (6 asignaturas) genera estrés académico innecesario.",
-    "Ausencia total de cursos de integración interdisciplinaria, evidenciando necesidad de actualización curricular según artículo 40 por conveniencia ante metodologías pedagógicas actuales como los proyectos integradores.",
     "Exceso de créditos en cursos individuales como 'Cálculo Diferencial e Integral Avanzado' (7 créditos), superando eficiencias recomendadas y reduciendo flexibilidad para incorporar tecnologías emergentes dentro del marco de los artículos 41 y 42.",
     "Nomenclatura desactualizada que no refleja avances tecnológicos: 'Minería de Datos' vs 'Machine Learning', 'Análisis en Macrodatos' vs 'Big Data Analytics', requiriendo actualización bajo amparo del artículo 40.",
     "Falta de aprovechamiento del marco legal del artículo 40 para actualizar contenidos según avances científicos y tecnológicos, manteniéndose en nomenclatura obsoleta cuando la ley permite y fomenta la modernización."
@@ -325,12 +323,6 @@ export const planAccion: PlanAccion[] = [
     descripcion: "Fundamentándose en el artículo 40 que permite actualización de planes cada 3 años o por avances científicos/tecnológicos, modernizar inmediatamente nomenclatura: 'Minería de Datos' → 'Machine Learning Aplicado', 'Análisis en Macrodatos' → 'Big Data Analytics', 'Infraestructura de Computación' → 'Cloud Computing y Arquitecturas Escalables'. Incorporar contenidos de TensorFlow, AWS, Docker sin exceder el marco crediticio de artículos 41 y 42.",
     prioridad: "Crítica",
     plazo: "Inmediato (6 meses)"
-  },
-  {
-    titulo: "Implementación de Proyectos Interdisciplinarios bajo Marco Legal",
-    descripcion: "Aprovechando el artículo 40 sobre actualización por conveniencia metodológica, crear: 'Proyecto Integrador I: Fundamentos' (3 créditos, ciclo 3), 'Proyecto Integrador II: Desarrollo de Software' (4 créditos, ciclo 5), 'Proyecto Integrador III: Soluciones Tecnológicas' (4 créditos, ciclo 7). Mantener dentro del marco de artículos 41 y 42 optimizando créditos existentes.",
-    prioridad: "Alta",
-    plazo: "Corto (1 año)"
   },
   {
     titulo: "Optimización de Carga Crediticia según Artículos 41 y 42",

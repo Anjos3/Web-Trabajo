@@ -102,7 +102,6 @@ export const analisisFODAIngenieriaCivil: AnalisisFODA = {
     "La carga académica más alta (223 créditos) y la alta densidad de cursos por ciclo (hasta 7 en los ciclos 4, 6 y 9) representan una clara sobrecarga para el estudiante, lo que puede afectar negativamente la calidad del aprendizaje.",
     "Rezagado en la adopción de tecnologías: solo 4 cursos relacionados con la digitalización frente a los 9 de UTEC. Ausencia de cursos explícitos en BIM, una herramienta estándar en la industria hoy en día.",
     "Formación en investigación menos visible y estructurada ('Seminario de Tesis') en comparación con el eje de tesis de dos cursos de la PUCP.",
-    "Falta de un proyecto integrador robusto que conecte las diferentes áreas de la ingeniería civil, a diferencia del 'Proyecto Integrador' de la PUCP y los 'Proyectos Interdisciplinarios' de UTEC."
   ],
   amenazas: [
     "La competencia (UTEC y PUCP) está formando ingenieros civiles con un perfil más tecnológico y adaptado a las nuevas demandas de la industria de la construcción 4.0.",
@@ -130,10 +129,5 @@ export const planAccionIngenieriaCivil: PlanAccion[] = [
     prioridad: "Media",
     plazo: "Mediano"
   },
-  {
-    titulo: "Creación de un Proyecto Final Integrador",
-    descripcion: "Reemplazar el 'Taller de Competencia Profesional' por un 'Proyecto Integrador de Fin de Carrera' de mayor creditaje, donde los estudiantes deban resolver un problema complejo de infraestructura aplicando todas sus competencias.",
-    prioridad: "Alta",
-    plazo: "Corto"
-  }
+
 ];
