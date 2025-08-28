@@ -6,16 +6,125 @@ export const mallaIngenieriaIndustrialUNI: MallaCurricular = {
   creditosObligatorios: 210,
   cursosIA_BigData: 5,
   ciclos: [
-    { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Cálculo Diferencial", creditos: 0, ciclo: 1 }, { nombre: "Química I", creditos: 0, ciclo: 1 }, { nombre: "Redacción y Comunicación", creditos: 0, ciclo: 1 }, { nombre: "Ética y Filosofía Política", creditos: 0, ciclo: 1 }, { nombre: "Geometría Analítica", creditos: 0, ciclo: 1 }, { nombre: "Dibujo de Ingeniería", creditos: 0, ciclo: 1 }, { nombre: "Introducción a Ingeniería Industrial", creditos: 0, ciclo: 1 }] },
-    { numero: 2, creditosTotales: 0, cursos: [{ nombre: "Algebra Lineal", creditos: 0, ciclo: 2 }, { nombre: "Cálculo Integral", creditos: 0, ciclo: 2 }, { nombre: "Introducción a la Computación", creditos: 0, ciclo: 2 }, { nombre: "Realidad Nacional, Constitución y Derechos Humanos", creditos: 0, ciclo: 2 }, { nombre: "Desarrollo Personal", creditos: 0, ciclo: 2 }, { nombre: "Teoría General de Sistemas", creditos: 0, ciclo: 2 }, { nombre: "Química II", creditos: 0, ciclo: 2 }] },
-    { numero: 3, creditosTotales: 0, cursos: [{ nombre: "Física I", creditos: 0, ciclo: 3 }, { nombre: "Metodología de la Investigación", creditos: 0, ciclo: 3 }, { nombre: "Matematica Discreta", creditos: 0, ciclo: 3 }, { nombre: "Cálculo Multivariable", creditos: 0, ciclo: 3 }, { nombre: "Diseño Asistido por Computador", creditos: 0, ciclo: 3 }, { nombre: "Física Química y Operaciones Unitarias", creditos: 0, ciclo: 3 }] },
-    { numero: 4, creditosTotales: 0, cursos: [{ nombre: "Economía General", creditos: 0, ciclo: 4 }, { nombre: "Ecuaciones Diferenciales", creditos: 0, ciclo: 4 }, { nombre: "Física II", creditos: 0, ciclo: 4 }, { nombre: "Lenguaje de Programación", creditos: 0, ciclo: 4 }, { nombre: "Estadística y Probabilidades", creditos: 0, ciclo: 4 }, { nombre: "Termodinámica", creditos: 0, ciclo: 4 }] },
-    { numero: 5, creditosTotales: 0, cursos: [{ nombre: "Sociología", creditos: 0, ciclo: 5 }, { nombre: "Estadística Aplicada", creditos: 0, ciclo: 5 }, { nombre: "Resistencia de Materiales", creditos: 0, ciclo: 5 }, { nombre: "Procesos Industriales I", creditos: 0, ciclo: 5 }, { nombre: "Electricidad y Electrónica Industrial", creditos: 0, ciclo: 5 }, { nombre: "Ingeniería del Trabajo I", creditos: 0, ciclo: 5 }, { nombre: "Investigación de Operaciones I", creditos: 0, ciclo: 5 }] },
-    { numero: 6, creditosTotales: 0, cursos: [{ nombre: "Administración y Organización", creditos: 0, ciclo: 6 }, { nombre: "Procesos Industriales II", creditos: 0, ciclo: 6 }, { nombre: "Contabilidad Financiera", creditos: 0, ciclo: 6 }, { nombre: "Ingeniería del Trabajo II", creditos: 0, ciclo: 6 }, { nombre: "Investigación de Operaciones II", creditos: 0, ciclo: 6 }, { nombre: "Ingeniería de Materiales", creditos: 0, ciclo: 6 }, { nombre: "Electivo", creditos: 0, ciclo: 6 }] },
-    { numero: 7, creditosTotales: 0, cursos: [{ nombre: "Ingeniería Económica", creditos: 0, ciclo: 7 }, { nombre: "Logística Empresarial", creditos: 0, ciclo: 7 }, { nombre: "Modelado Sistémico y Simulación", creditos: 0, ciclo: 7 }, { nombre: "Análisis de Procesos de Manufactura", creditos: 0, ciclo: 7 }, { nombre: "Ingeniería de Procesos", creditos: 0, ciclo: 7 }, { nombre: "Contabilidad de Costos y Presupuestos", creditos: 0, ciclo: 7 }, { nombre: "Electivo", creditos: 0, ciclo: 7 }] },
-    { numero: 8, creditosTotales: 0, cursos: [{ nombre: "Sistemas de Calidad", creditos: 0, ciclo: 8 }, { nombre: "Automatización y Control de Procesos", creditos: 0, ciclo: 8 }, { nombre: "Gestión de la Cadena de Suministro", creditos: 0, ciclo: 8 }, { nombre: "Ingeniería del Producto", creditos: 0, ciclo: 8 }, { nombre: "Mercadotecnia", creditos: 0, ciclo: 8 }, { nombre: "Electivo", creditos: 0, ciclo: 8 }] },
-    { numero: 9, creditosTotales: 0, cursos: [{ nombre: "Seguridad y Salud Ocupacional", creditos: 0, ciclo: 9 }, { nombre: "Finanzas", creditos: 0, ciclo: 9 }, { nombre: "Innovación y Emprendimiento de Negocios", creditos: 0, ciclo: 9 }, { nombre: "Proyecto de Tesis en Ingeniería Industrial I", creditos: 0, ciclo: 9 }, { nombre: "Planeamiento y Control de Operaciones", creditos: 0, ciclo: 9 }, { nombre: "Electivo", creditos: 0, ciclo: 9 }] },
-    { numero: 10, creditosTotales: 0, cursos: [{ nombre: "Gestión del Talento Humano", creditos: 0, ciclo: 10 }, { nombre: "Planeamiento y Gestión Estratégica", creditos: 0, ciclo: 10 }, { nombre: "Diseño y Evaluación de Proyectos", creditos: 0, ciclo: 10 }, { nombre: "Proyecto de Tesis en Ingeniería Industrial II", creditos: 0, ciclo: 10 }, { nombre: "Electivo", creditos: 0, ciclo: 10 }] }
+    { 
+      numero: 1, 
+      creditosTotales: 22, 
+      cursos: [
+        { nombre: "Cálculo Diferencial", creditos: 5, ciclo: 1 }, 
+        { nombre: "Química I", creditos: 5, ciclo: 1 }, 
+        { nombre: "Redacción y Comunicación", creditos: 2, ciclo: 1 }, 
+        { nombre: "Ética y Filosofía Política", creditos: 2, ciclo: 1 }, 
+        { nombre: "Geometría Analítica", creditos: 3, ciclo: 1 }, 
+        { nombre: "Dibujo de Ingeniería", creditos: 2, ciclo: 1 }, 
+        { nombre: "Introducción a Ingeniería Industrial", creditos: 3, ciclo: 1 }
+      ] 
+    },
+    { 
+      numero: 2, 
+      creditosTotales: 22, 
+      cursos: [
+        { nombre: "Algebra Lineal", creditos: 4, ciclo: 2 }, 
+        { nombre: "Cálculo Integral", creditos: 5, ciclo: 2 }, 
+        { nombre: "Introducción a la Computación", creditos: 2, ciclo: 2 }, 
+        { nombre: "Realidad Nacional, Constitución y Derechos Humanos", creditos: 3, ciclo: 2 }, 
+        { nombre: "Desarrollo Personal", creditos: 2, ciclo: 2 }, 
+        { nombre: "Teoría General de Sistemas", creditos: 2, ciclo: 2 }, 
+        { nombre: "Química II", creditos: 4, ciclo: 2 }
+      ] 
+    },
+    { 
+      numero: 3, 
+      creditosTotales: 21, 
+      cursos: [
+        { nombre: "Física I", creditos: 5, ciclo: 3 }, 
+        { nombre: "Metodología de la Investigación", creditos: 2, ciclo: 3 }, 
+        { nombre: "Matematica Discreta", creditos: 3, ciclo: 3 }, 
+        { nombre: "Cálculo Multivariable", creditos: 5, ciclo: 3 }, 
+        { nombre: "Diseño Asistido por Computador", creditos: 3, ciclo: 3 }, 
+        { nombre: "Termodinámica", creditos: 3, ciclo: 3 }
+      ] 
+    },
+    { 
+      numero: 4, 
+      creditosTotales: 23, 
+      cursos: [
+        { nombre: "Economía General", creditos: 3, ciclo: 4 }, 
+        { nombre: "Ecuaciones Diferenciales", creditos: 5, ciclo: 4 }, 
+        { nombre: "Física II", creditos: 5, ciclo: 4 }, 
+        { nombre: "Lenguaje de Programación", creditos: 3, ciclo: 4 }, 
+        { nombre: "Estadística y Probabilidades", creditos: 3, ciclo: 4 }, 
+        { nombre: "Física Química y Operaciones Unitarias", creditos: 4, ciclo: 4 }
+      ] 
+    },
+    { 
+      numero: 5, 
+      creditosTotales: 22, 
+      cursos: [
+        { nombre: "Sociología", creditos: 2, ciclo: 5 }, 
+        { nombre: "Contabilidad Financiera", creditos: 3, ciclo: 5 }, 
+        { nombre: "Ingeniería de Materiales", creditos: 3, ciclo: 5 }, 
+        { nombre: "Procesos Industriales I", creditos: 4, ciclo: 5 }, 
+        { nombre: "Electricidad y Electrónica Industrial", creditos: 4, ciclo: 5 }, 
+        { nombre: "Ingeniería del Trabajo I", creditos: 3, ciclo: 5 }, 
+        { nombre: "Investigación de Operaciones I", creditos: 3, ciclo: 5 }
+      ] 
+    },
+    { 
+      numero: 6, 
+      creditosTotales: 19, 
+      cursos: [
+        { nombre: "Administración y Organización", creditos: 3, ciclo: 6 }, 
+        { nombre: "Procesos Industriales II", creditos: 4, ciclo: 6 }, 
+        { nombre: "Control Estadístico de Procesos", creditos: 3, ciclo: 6 }, 
+        { nombre: "Ingeniería del Trabajo II", creditos: 3, ciclo: 6 }, 
+        { nombre: "Investigación de Operaciones II", creditos: 3, ciclo: 6 }, 
+        { nombre: "Maquinaria e Instrumentación Industrial", creditos: 3, ciclo: 6 }
+      ] 
+    },
+    { 
+      numero: 7, 
+      creditosTotales: 18, 
+      cursos: [
+        { nombre: "Ingeniería Económica", creditos: 3, ciclo: 7 }, 
+        { nombre: "Logística Empresarial", creditos: 3, ciclo: 7 }, 
+        { nombre: "Modelado Sistémico y Simulación", creditos: 3, ciclo: 7 }, 
+        { nombre: "Análisis de Procesos de Manufactura", creditos: 3, ciclo: 7 }, 
+        { nombre: "Ingeniería de Procesos", creditos: 3, ciclo: 7 }, 
+        { nombre: "Contabilidad de Costos y Presupuestos", creditos: 3, ciclo: 7 }
+      ] 
+    },
+    { 
+      numero: 8, 
+      creditosTotales: 15, 
+      cursos: [
+        { nombre: "Sistemas Integrados de Calidad", creditos: 3, ciclo: 8 }, 
+        { nombre: "Automatización y Control de Procesos", creditos: 3, ciclo: 8 }, 
+        { nombre: "Gestión de la Cadena de Suministro", creditos: 3, ciclo: 8 }, 
+        { nombre: "Ingeniería del Producto", creditos: 3, ciclo: 8 }, 
+        { nombre: "Mercadotecnia", creditos: 3, ciclo: 8 }
+      ] 
+    },
+    { 
+      numero: 9, 
+      creditosTotales: 14, 
+      cursos: [
+        { nombre: "Seguridad y Salud Ocupacional", creditos: 3, ciclo: 9 }, 
+        { nombre: "Gestión Financiera", creditos: 3, ciclo: 9 }, 
+        { nombre: "Innovación y Emprendimiento de Negocios", creditos: 3, ciclo: 9 }, 
+        { nombre: "Taller de proyecto de investigación", creditos: 2, ciclo: 9 }, 
+        { nombre: "Planeamiento y Control de Operaciones", creditos: 3, ciclo: 9 }
+      ] 
+    },
+    { 
+      numero: 10, 
+      creditosTotales: 11, 
+      cursos: [
+        { nombre: "Gestión del Talento Humano", creditos: 3, ciclo: 10 }, 
+        { nombre: "Planeamiento y Gestión Estratégica", creditos: 3, ciclo: 10 }, 
+        { nombre: "Diseño y Evaluación de Proyectos", creditos: 3, ciclo: 10 }, 
+        { nombre: "Taller de Investigación", creditos: 2, ciclo: 10 }
+      ] 
+    }
   ],
   cursosRelacionados: ["Introducción a la Computación", "Diseño Asistido por Computador", "Lenguaje de Programación", "Modelado Sistémico y Simulación", "Automatización y Control de Procesos"]
 };
@@ -102,7 +211,7 @@ export const analisisFODAUNI: AnalisisFODA = {
   ],
   debilidades: [
     "Severo rezago tecnológico en cursos de IA/Big Data: apenas 5 cursos relacionados (Introducción a la Computación, Diseño Asistido por Computador, Lenguaje de Programación, Modelado Sistémico y Simulación, Automatización y Control de Procesos) versus 10 en UTEC ('Data Analytics', 'Ciencia de la Decisión') y 8 en PUCP ('Analytics 1 y 2', 'Simulación'). Ausencia crítica de términos modernos como 'Business Intelligence', 'Machine Learning' o 'Data Science'.",
-    "Sobrecarga académica estructural con distribución inadecuada: ciclos 2, 5, 6, 7 con 7 cursos cada uno, generando estrés académico excesivo que compromete el aprendizaje profundo. Esta carga excesiva, aunque respeta el mínimo de 200 créditos de los artículos 41 y 42 de la Ley Universitaria, viola principios de diseño curricular efectivo, afectando rendimiento estudiantil y calidad formativa.",
+    "Sobrecarga académica estructural con distribución inadecuada: ciclos 2, 5, 6, 7 con 7 cursos cada uno, generando estrés académico excesivo que compromete el aprendizaje profundo. Esta carga excesiva, aunque respeta el mínimo de 200 créditos de los artículos 41 y 42 de la Ley Universitaria, vulnera principios de diseño curricular efectivo, afectando rendimiento estudiantil y calidad formativa.",
     "Ausencia total de espacios de integración interdisciplinaria: contrasta negativamente con UTEC (3 'Proyectos Interdisciplinarios' distribuidos estratégicamente en ciclos 1, 4, 7) y PUCP ('Proyecto de Mejora', 'Proyecto de Ingeniería Industrial 1 y 2'). Esta carencia limita desarrollo de competencias de síntesis y aplicación práctica de conocimientos.",
     "Nomenclatura curricular desactualizada que no refleja estándares modernos de la industria: 'Investigación de Operaciones I-II' debería denominarse 'Analítica Avanzada para Operaciones', 'Lenguaje de Programación' carece de especificación tecnológica, 'Automatización y Control de Procesos' no menciona Industry 4.0 o IoT Industrial.",
     "Déficit en formación digital empresarial: ausencia de cursos como 'Transformación Digital', 'Sistemas ERP', 'Inteligencia de Negocios' que son estándar en programas competitivos y demandados por el mercado laboral actual."

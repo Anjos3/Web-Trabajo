@@ -1,81 +1,82 @@
 ## Malla curricular ingeniería industrial UNI:
-1	Cálculo Diferencial
-    Química I
-    Redacción y Comunicación
-    Ética y Filosofía Política
-    Geometría Analítica
-    Dibujo de Ingeniería
-    Introducción a Ingeniería Industrial
-    
-2	Algebra Lineal
-    Cálculo Integral
-    Introducción a la Computación
-    Realidad Nacional, Constitución y Derechos Humanos
-    Desarrollo Personal
-    Teoría General de Sistemas
-    Química II
-    
-3	Física I
-    Metodología de la Investigación
-    Matematica Discreta
-    Cálculo Multivariable
-    Diseño Asistido por Computador
-    Física Química y Operaciones Unitarias
-    -
-    
-4	Economía General
-    Ecuaciones Diferenciales
-    Física II
-    Lenguaje de Programación
-    Estadística y Probabilidades
-    Termodinámica
-    -
-    
-5	Sociología
-    Estadística Aplicada
-    Resistencia de Materiales
-    Procesos Industriales I
-    Electricidad y Electrónica Industrial
-    Ingeniería del Trabajo I
-    Investigación de Operaciones I
-    
-6	Administración y Organización
-    Procesos Industriales II
-    Contabilidad Financiera
-    Ingeniería del Trabajo II
-    Investigación de Operaciones II
-    Ingeniería de Materiales
-    Electivo
-    
-7	Ingeniería Económica
-    Logística Empresarial
-    Modelado Sistémico y Simulación
-    Análisis de Procesos de Manufactura
-    Ingeniería de Procesos
-    Contabilidad de Costos y Presupuestos
-    Electivo
-    
-8	Sistemas de Calidad
-    Automatización y Control de Procesos
-    Gestión de la Cadena de Suministro
-    Ingeniería del Producto
-    Mercadotecnia
-    Electivo
-    -
-    
-9	Seguridad y Salud Ocupacional
-    Finanzas
-    Innovación y Emprendimiento de Negocios
-    Proyecto de Tesis en Ingeniería Industrial I
-    Planeamiento y Control de Operaciones
-    Electivo
-    -
-    
-10	Gestión del Talento Humano
-    Planeamiento y Gestión Estratégica
-    Diseño y Evaluación de Proyectos
-    Proyecto de Tesis en Ingeniería Industrial II
-    Electivo
+CICLO	CURSO	CREDITOS
+1	Cálculo Diferencial	5
+    Química I	5
+    Redacción y Comunicación	2
+    Ética y Filosofía Política	2
+    Geometría Analítica	3
+    Dibujo de Ingeniería	2
+    Introducción a Ingeniería Industrial	3
+        
+2	Algebra Lineal	4
+    Cálculo Integral	5
+    Introducción a la Computación	2
+    Realidad Nacional, Constitución y Derechos Humanos	3
+    Desarrollo Personal	2
+    Teoría General de Sistemas	2
+    Química II	4
+        
+3	Física I	5
+    Metodología de la Investigación	2
+    Matematica Discreta	3
+    Cálculo Multivariable	5
+    Diseño Asistido por Computador	3
+    Termodinámica	3
+    -	
+        
+4	Economía General	3
+    Ecuaciones Diferenciales	5
+    Física II	5
+    Lenguaje de Programación	3
+    Estadística y Probabilidades	3
+    Física Química y Operaciones Unitarias	4
+    -	
+        
+5	Sociología	2
+    Contabilidad Financiera	3
+    Ingeniería de Materiales	3
+    Procesos Industriales I	4
+    Electricidad y Electrónica Industrial	4
+    Ingeniería del Trabajo I	3
+    Investigación de Operaciones I	3
+        
+6	Administración y Organización	3
+    Procesos Industriales II	4
+    Control Estadístico de Procesos	3
+    Ingeniería del Trabajo II	3
+    Investigación de Operaciones II	3
+    Maquinaria e Instrumentación Industrial	3
+        
+        
+7	Ingeniería Económica	3
+    Logística Empresarial	3
+    Modelado Sistémico y Simulación	3
+    Análisis de Procesos de Manufactura	3
+    Ingeniería de Procesos	3
+    Contabilidad de Costos y Presupuestos	3
+        
+        
+8	Sistemas Integrados de Calidad	3
+    Automatización y Control de Procesos	3
+    Gestión de la Cadena de Suministro	3
+    Ingeniería del Producto	3
+    Mercadotecnia	3
+        
+    -	
+        
+9	Seguridad y Salud Ocupacional	3
+    Gestión Financiera	3
+    Innovación y Emprendimiento de Negocios	3
+    Taller de proyecto de investigación	2
+    Planeamiento y Control de Operaciones	3
+        
+    -	
+        
+10	Gestión del Talento Humano	3
+    Planeamiento y Gestión Estratégica	3
+    Diseño y Evaluación de Proyectos	3
+    Taller de Investigación	2
+        
     
 CANTIDAD DE CRÉDITOS	210 CRÉDITOS
 Cursos big data, IA y tecnologías emergentes: Introducción a la Computación,Diseño Asistido por Computador,Lenguaje de Programación,Modelado Sistémico y Simulación,Automatización y Control de Procesos

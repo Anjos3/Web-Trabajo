@@ -149,97 +149,91 @@ export const mallaIngenieriaSistemasPUCP: MallaCurricular = {
   ciclos: [
     {
       numero: 1,
-      creditosTotales: 21,
+      creditosTotales: 16,
       cursos: [
-        { nombre: "Algebra matricial y geometría analítica", creditos: 3, ciclo: 1 },
-        { nombre: "Fundamentos de cálculo", creditos: 3, ciclo: 1 },
+        { nombre: "Algebra matricial y geometría analítica", creditos: 4, ciclo: 1 },
+        { nombre: "Fundamentos de cálculo", creditos: 4, ciclo: 1 },
         { nombre: "Fundamentos de física", creditos: 3, ciclo: 1 },
         { nombre: "Química 1", creditos: 3, ciclo: 1 },
-        { nombre: "Laboratorio de química 1", creditos: 1, ciclo: 1 },
-        { nombre: "Comunicación académica", creditos: 3, ciclo: 1 }
+        { nombre: "Comunicación académica", creditos: 2, ciclo: 1 }
       ]
     },
     {
       numero: 2,
-      creditosTotales: 21,
+      creditosTotales: 16,
       cursos: [
-        { nombre: "Cálculo diferencial", creditos: 3, ciclo: 2 },
-        { nombre: "Fisica I", creditos: 3, ciclo: 2 },
-        { nombre: "Laboratorio de física I", creditos: 1, ciclo: 2 },
+        { nombre: "Cálculo diferencial", creditos: 4, ciclo: 2 },
+        { nombre: "Fisica I", creditos: 4, ciclo: 2 },
         { nombre: "Dibujo en ingeniería", creditos: 3, ciclo: 2 },
-        { nombre: "Trabajo académico", creditos: 3, ciclo: 2 },
-        { nombre: "Ciencia y filosofía", creditos: 3, ciclo: 2 },
-        { nombre: "Un electivo de humanidades 1", creditos: 3, ciclo: 2 }
+        { nombre: "Trabajo académico", creditos: 2, ciclo: 2 },
+        { nombre: "Ciencia y filosofía", creditos: 2, ciclo: 2 }
       ]
     },
     {
       numero: 3,
       creditosTotales: 18,
       cursos: [
-        { nombre: "Cálculo integral", creditos: 3, ciclo: 3 },
-        { nombre: "Cálculo en varias variables", creditos: 3, ciclo: 3 },
-        { nombre: "Fisica 2", creditos: 3, ciclo: 3 },
-        { nombre: "Laboratorio de física 2", creditos: 1, ciclo: 3 },
-        { nombre: "Fundamentos de programación", creditos: 4, ciclo: 3 },
+        { nombre: "Cálculo integral", creditos: 4, ciclo: 3 },
+        { nombre: "Cálculo en varias variables", creditos: 4, ciclo: 3 },
+        { nombre: "Fisica 2", creditos: 4, ciclo: 3 },
+        { nombre: "Fundamentos de programación", creditos: 2, ciclo: 3 },
         { nombre: "Estructuras discretas", creditos: 4, ciclo: 3 }
       ]
     },
     {
       numero: 4,
-      creditosTotales: 18,
+      creditosTotales: 12,
       cursos: [
-        { nombre: "Cálculo aplicado", creditos: 3, ciclo: 4 },
-        { nombre: "Física 3", creditos: 3, ciclo: 4 },
-        { nombre: "Laboratorio de física 3", creditos: 1, ciclo: 4 },
-        { nombre: "Técnicas de programación", creditos: 4, ciclo: 4 },
-        { nombre: "Un electivo de humanidades 2", creditos: 3, ciclo: 4 },
-        { nombre: "Un electivo de teología y religión", creditos: 3, ciclo: 4 }
+        { nombre: "Cálculo aplicado", creditos: 4, ciclo: 4 },
+        { nombre: "Física 3", creditos: 4, ciclo: 4 },
+        { nombre: "Técnicas de programación", creditos: 4, ciclo: 4 }
       ]
     },
     {
       numero: 5,
-      creditosTotales: 21,
+      creditosTotales: 19,
       cursos: [
-        { nombre: "Taller de Habilidades Interpersonales", creditos: 3, ciclo: 5 },
-        { nombre: "Empresa y su Entorno", creditos: 3, ciclo: 5 },
+        { nombre: "Taller de Habilidades Interpersonales", creditos: 1, ciclo: 5 },
+        { nombre: "Empresa y su Entorno", creditos: 2, ciclo: 5 },
         { nombre: "Programación 2", creditos: 4, ciclo: 5 },
-        { nombre: "Algoritmia y Estructura de Datos", creditos: 4, ciclo: 5 },
+        { nombre: "Algoritmia y Estructura de Datos", creditos: 3, ciclo: 5 },
         { nombre: "Fundamentos de Sistemas de Información", creditos: 3, ciclo: 5 },
-        { nombre: "Base de Datos", creditos: 4, ciclo: 5 }
+        { nombre: "Base de Datos", creditos: 3, ciclo: 5 },
+        { nombre: "Ingeniería de Requisitos", creditos: 3, ciclo: 5 }
       ]
     },
     {
       numero: 6,
-      creditosTotales: 21,
+      creditosTotales: 18,
       cursos: [
-        { nombre: "Contabilidad y Finanzas", creditos: 3, ciclo: 6 },
+        { nombre: "Contabilidad y Finanzas", creditos: 2, ciclo: 6 },
         { nombre: "Arquitectura de Computadoras", creditos: 3, ciclo: 6 },
         { nombre: "Probabilidad y Estadística", creditos: 3, ciclo: 6 },
-        { nombre: "Sistemas Operativos", creditos: 3, ciclo: 6 },
+        { nombre: "Sistemas Operativos", creditos: 2, ciclo: 6 },
         { nombre: "Programación 3", creditos: 4, ciclo: 6 },
-        { nombre: "Arquitectura de Software", creditos: 3, ciclo: 6 },
-        { nombre: "Algoritmos Avanzados", creditos: 3, ciclo: 6 }
+        { nombre: "Arquitectura de Software", creditos: 2, ciclo: 6 },
+        { nombre: "Algoritmos Avanzados", creditos: 2, ciclo: 6 }
       ]
     },
     {
       numero: 7,
-      creditosTotales: 21,
+      creditosTotales: 18,
       cursos: [
-        { nombre: "Experimentación Numérica", creditos: 3, ciclo: 7 },
+        { nombre: "Experimentación Numérica", creditos: 2, ciclo: 7 },
         { nombre: "Inteligencia Artificial", creditos: 3, ciclo: 7 },
         { nombre: "Modelado y Automatización de Procesos Empresariales", creditos: 3, ciclo: 7 },
-        { nombre: "Administración de Sistemas Operativos", creditos: 3, ciclo: 7 },
-        { nombre: "Diseño de Software", creditos: 3, ciclo: 7 },
+        { nombre: "Administración de Sistemas Operativos", creditos: 2, ciclo: 7 },
+        { nombre: "Diseño de Software", creditos: 2, ciclo: 7 },
         { nombre: "Ingeniería Económica", creditos: 3, ciclo: 7 },
         { nombre: "Redes de Computadoras", creditos: 3, ciclo: 7 }
       ]
     },
     {
       numero: 8,
-      creditosTotales: 21,
+      creditosTotales: 19,
       cursos: [
-        { nombre: "Formulación de Proyecto de Fin de Carrera", creditos: 3, ciclo: 8 },
-        { nombre: "Ética y RSU en Ingeniería Informática", creditos: 3, ciclo: 8 },
+        { nombre: "Formulación de Proyecto de Fin de Carrera", creditos: 2, ciclo: 8 },
+        { nombre: "Ética y RSU en Ingeniería Informática", creditos: 2, ciclo: 8 },
         { nombre: "Ingeniería de Software", creditos: 3, ciclo: 8 },
         { nombre: "Innovación y Emprendimiento con Tecnologías de Informacion", creditos: 3, ciclo: 8 },
         { nombre: "Gobierno y Gestión de Tecnologías de Información", creditos: 3, ciclo: 8 },
@@ -249,24 +243,22 @@ export const mallaIngenieriaSistemasPUCP: MallaCurricular = {
     },
     {
       numero: 9,
-      creditosTotales: 18,
+      creditosTotales: 13,
       cursos: [
-        { nombre: "Proyecto de Fin de Carrera 1", creditos: 3, ciclo: 9 },
+        { nombre: "Proyecto de Fin de Carrera 1", creditos: 2, ciclo: 9 },
         { nombre: "Arquitectura Empresarial", creditos: 3, ciclo: 9 },
         { nombre: "Implantación de Sistemas de Información", creditos: 3, ciclo: 9 },
-        { nombre: "Proyecto de Diseño y Desarrollo de Software", creditos: 3, ciclo: 9 },
-        { nombre: "Gestión de Proyectos", creditos: 3, ciclo: 9 },
-        { nombre: "Práctica Supervisada Preprofesional", creditos: 3, ciclo: 9 }
+        { nombre: "Proyecto de Diseño y Desarrollo de Software", creditos: 2, ciclo: 9 },
+        { nombre: "Gestión de Proyectos", creditos: 3, ciclo: 9 }
       ]
     },
     {
       numero: 10,
-      creditosTotales: 12,
+      creditosTotales: 10,
       cursos: [
-        { nombre: "Proyecto de Fin de Carrera 2", creditos: 3, ciclo: 10 },
-        { nombre: "Proyecto de Implementación de Software", creditos: 3, ciclo: 10 },
-        { nombre: "Estrategia y Gestión de Sistemas de Información", creditos: 3, ciclo: 10 },
-        { nombre: "Cursos electivos (**)", creditos: 3, ciclo: 10 }
+        { nombre: "Proyecto de Fin de Carrera 2", creditos: 2, ciclo: 10 },
+        { nombre: "Proyecto de Implementación de Software", creditos: 2, ciclo: 10 },
+        { nombre: "Estrategia y Gestión de Sistemas de Información", creditos: 3, ciclo: 10 }
       ]
     }
   ],

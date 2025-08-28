@@ -79,81 +79,82 @@ CICLO	CRÉDITO	CURSO
 Cantidad total de créditos		212
 Cursos relacionados a bigdata,IA y tecnologías emergentes:  18:Introducción a la Computación,Algoritmia y Estructura de datos,Matemática Discreta,Calculo Multivariable,Estadística y Probabilidades,Programación Orientada a Objetos,Cálculo Numérico,Estadística Aplicada,Modelado Conceptual de Datos,Matemática Aplicada,Diseño de Base de Datos,Investigación de Operaciones I,Investigación de Operaciones II,Arquitectura Computacional y Redes,Modelado Sistémico y Simulación,Ingeniería de Software,Sistemas Analiticos,Sistemas de Inteligencia de Negocio
 ## Malla de ingeniería informática PUCP:
-PUCP ING. INFORMATICA	CICLO
-Algebra matricial y geometría analítica	1
-Fundamentos de cálculo	
-Fundamentos de física	
-Química 1	
-Laboratorio de química 1	
-Comunicación académica	
-	
-Cálculo diferencial	2
-Fisica I	
-Laboratorio de física I	
-Dibujo en ingeniería	
-Trabajo académico	
-Ciencia y filosofía	
-Un electivo de humanidades 1	
-	
-Cálculo integral	3
-Cálculo en varias variables	
-Fisica 2	
-Laboratorio de física 2	
-Fundamentos de programación	
-Estructuras discretas	
-	
-	
-Cálculo aplicado	4
-Física 3	
-Laboratorio de física 3	
-Técnicas de programación	
-Un electivo de humanidades 2	
-Un electivo de teología y religión	
-	
-	
-Taller de Habilidades Interpersonales	5
-Empresa y su Entorno	
-Programación 2	
-Algoritmia y Estructura de Datos	
-Fundamentos de Sistemas de Información	
-Base de Datos	
-Ingeniería de Requisitos	
-	
-Contabilidad y Finanzas	6
-Arquitectura de Computadoras	
-Probabilidad y Estadística	
-Sistemas Operativos	
-Programación 3	
-Arquitectura de Software	
-Algoritmos Avanzados	
-	
-Experimentación Numérica	7
-Inteligencia Artificial	
-Modelado y Automatización de Procesos Empresariales	
-Administración de Sistemas Operativos	
-Diseño de Software	
-Ingeniería Económica	
-Redes de Computadoras	
-	
-Formulación de Proyecto de Fin de Carrera	8
-Ética y RSU en Ingeniería Informática	
-Ingeniería de Software	
-Innovación y Emprendimiento con Tecnologías de Informacion	
-Gobierno y Gestión de Tecnologías de Información	
-Tecnologías de Información para los Negocios	
-Seguridad de Información	
-	
-Proyecto de Fin de Carrera 1	9
-Arquitectura Empresarial	
-Implantación de Sistemas de Información	
-Proyecto de Diseño y Desarrollo de Software	
-Gestión de Proyectos	
-Práctica Supervisada Preprofesional	
-	
-Proyecto de Fin de Carrera 2	10
-Proyecto de Implementación de Software	
-Estrategia y Gestión de Sistemas de Información	
-Cursos electivos (**)	
+CRÉDITOS	CURSO	CICLO
+4	Algebra matricial y geometría analítica	1
+4	Fundamentos de cálculo	
+3	Fundamentos de física	
+3	Química 1	
+0	Laboratorio de química 1	
+2	Comunicación académica	
+		
+4	Cálculo diferencial	2
+4	Fisica I	
+0	Laboratorio de física I	
+3	Dibujo en ingeniería	
+2	Trabajo académico	
+2	Ciencia y filosofía	
+		
+		
+4	Cálculo integral	3
+4	Cálculo en varias variables	
+4	Fisica 2	
+0	Laboratorio de física 2	
+2	Fundamentos de programación	
+4	Estructuras discretas	
+		
+		
+4	Cálculo aplicado	4
+4	Física 3	
+0	Laboratorio de física 3	
+4	Técnicas de programación	
+		
+		
+		
+		
+1	Taller de Habilidades Interpersonales	5
+2	Empresa y su Entorno	
+4	Programación 2	
+3	Algoritmia y Estructura de Datos	
+3	Fundamentos de Sistemas de Información	
+3	Base de Datos	
+3	Ingeniería de Requisitos	
+		
+2	Contabilidad y Finanzas	6
+3	Arquitectura de Computadoras	
+3	Probabilidad y Estadística	
+2	Sistemas Operativos	
+4	Programación 3	
+2	Arquitectura de Software	
+2	Algoritmos Avanzados	
+		
+2	Experimentación Numérica	7
+3	Inteligencia Artificial	
+3	Modelado y Automatización de Procesos Empresariales	
+2	Administración de Sistemas Operativos	
+2	Diseño de Software	
+3	Ingeniería Económica	
+3	Redes de Computadoras	
+		
+2	Formulación de Proyecto de Fin de Carrera	8
+2	Ética y RSU en Ingeniería Informática	
+3	Ingeniería de Software	
+3	Innovación y Emprendimiento con Tecnologías de Informacion	
+3	Gobierno y Gestión de Tecnologías de Información	
+3	Tecnologías de Información para los Negocios	
+3	Seguridad de Información	
+		
+2	Proyecto de Fin de Carrera 1	9
+3	Arquitectura Empresarial	
+3	Implantación de Sistemas de Información	
+2	Proyecto de Diseño y Desarrollo de Software	
+3	Gestión de Proyectos	
+		
+		
+2	Proyecto de Fin de Carrera 2	10
+2	Proyecto de Implementación de Software	
+3	Estrategia y Gestión de Sistemas de Información	
+		
+		
 
 Cantidad total de créditos: 211.25
 Número de programas relacionados a IA,bigdata,inteligencia artificial y ciencia de datos:
