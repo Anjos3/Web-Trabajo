@@ -297,49 +297,50 @@ export const analisisFODA: AnalisisFODA = {
   fortalezas: [
     "Diferenciación clara en formación de investigadores a través de una secuencia robusta: 'Metodología de la Investigación' (2 créditos), 'Proyecto de Tesis I' (4 créditos), 'Proyecto de Tesis II' (4 créditos) y 'Proyecto de Tesis III' (4 créditos).",
     "Base matemática sólida con cursos especializados como 'Cálculo Diferencial e Integral Avanzado' (7 créditos), 'Matemática Computacional' (4 créditos) y 'Análisis y Modelamiento Numérico I' (5 créditos).",
-    "Prestigio histórico y reconocimiento de marca de la UNI en el campo de la ingeniería, con egresados posicionados en la industria."
+    "Prestigio histórico y reconocimiento de marca de la UNI en el campo de la ingeniería, con egresados posicionados en la industria.",
+    "Cumplimiento del mínimo de 200 créditos establecido en los artículos 41 y 42 de la Ley Universitaria, aunque con exceso que requiere optimización para mayor eficiencia académica."
   ],
   oportunidades: [
-    "Aprovechar la demanda creciente del mercado por profesionales en IA, Machine Learning y Big Data para modernizar la nomenclatura y contenido de cursos existentes.",
-    "Implementar un eje de proyectos integradores que conecte la teoría con aplicaciones reales, capitalizando el prestigio institucional.",
-    "Establecer alianzas estratégicas con líderes tecnológicos para actualizar laboratorios y generar oportunidades de prácticas profesionales."
+    "El artículo 40 de la Ley Universitaria ampara la actualización de planes de estudio cada 3 años o cuando sea conveniente según avances científicos y tecnológicos, justificando la modernización urgente en IA, Machine Learning y Big Data.",
+    "Implementar un eje de proyectos integradores respaldado por el marco legal de actualización curricular, conectando teoría con aplicaciones reales y capitalizando el prestigio institucional.",
+    "Establecer alianzas estratégicas con líderes tecnológicos para casos de estudio actualizados, aprovechando la flexibilidad legal para modificaciones curriculares por conveniencia tecnológica."
   ],
   debilidades: [
-    "Deficiencia crítica en cursos de IA/Big Data/tecnologías emergentes: solo 8 cursos frente a 12 de UTEC. La UNI carece de cursos clave como 'Machine Learning', 'Cloud Computing' e 'Internet de las Cosas'.",
-    "Sobrecarga académica severa con 200 créditos totales. Ciclos como el 2°, 3°, 4°, 6° y 7° exigen 6 asignaturas simultáneas, generando estrés académico y aprendizaje superficial.",
-    "Ausencia total de cursos de integración interdisciplinaria. No existe equivalente a los 'Proyectos Interdisciplinarios' que UTEC implementa desde el primer ciclo, limitando la preparación para problemas complejos del mundo real.",
-    "Exceso de créditos en cursos individuales como 'Cálculo Diferencial e Integral Avanzado' (7 créditos), reduciendo flexibilidad curricular y capacidad de adaptación tecnológica.",
-    "Nomenclatura desactualizada que no refleja estándares de mercado: 'Minería de Datos' en lugar de 'Machine Learning', 'Análisis en Macrodatos' en lugar de 'Big Data Analytics'."
+    "Sobrecarga académica con 200 créditos, aunque cumple el mínimo establecido en artículos 41 y 42 de la Ley Universitaria, la concentración excesiva en ciclos como el 2°, 3°, 4°, 6° y 7° (6 asignaturas) genera estrés académico innecesario.",
+    "Ausencia total de cursos de integración interdisciplinaria, evidenciando necesidad de actualización curricular según artículo 40 por conveniencia ante metodologías pedagógicas actuales como los proyectos integradores.",
+    "Exceso de créditos en cursos individuales como 'Cálculo Diferencial e Integral Avanzado' (7 créditos), superando eficiencias recomendadas y reduciendo flexibilidad para incorporar tecnologías emergentes dentro del marco de los artículos 41 y 42.",
+    "Nomenclatura desactualizada que no refleja avances tecnológicos: 'Minería de Datos' vs 'Machine Learning', 'Análisis en Macrodatos' vs 'Big Data Analytics', requiriendo actualización bajo amparo del artículo 40.",
+    "Falta de aprovechamiento del marco legal del artículo 40 para actualizar contenidos según avances científicos y tecnológicos, manteniéndose en nomenclatura obsoleta cuando la ley permite y fomenta la modernización."
   ],
   amenazas: [
-    "UTEC se posiciona como líder en modernidad tecnológica con 12 cursos de IA/Big Data vs 8 de la UNI, atrayendo estudiantes orientados a la innovación.",
-    "El mercado laboral prioriza cada vez más habilidades de colaboración interdisciplinaria y experiencia en proyectos, áreas donde la UNI muestra desventaja competitiva clara.",
-    "Riesgo de obsolescencia percibida del programa debido a la brecha en tecnologías emergentes y falta de proyectos integradores, a pesar de la solidez técnica tradicional."
+    "UTEC aprovecha mejor el marco legal del artículo 40, posicionándose como líder en modernidad tecnológica, mientras UNI no actualiza según avances científicos y tecnológicos permitidos por ley.",
+    "El mercado laboral prioriza habilidades de colaboración interdisciplinaria y experiencia en proyectos, evidenciando que otras universidades han actualizado mejor sus currículos según conveniencia tecnológica permitida en el artículo 40.",
+    "Riesgo de percepción de incumplimiento del espíritu de actualización continua establecido en la Ley Universitaria, a pesar de la solidez técnica tradicional, lo que puede afectar la competitividad institucional."
   ]
 };
 
 export const planAccion: PlanAccion[] = [
   {
-    titulo: "Plan de Incorporación Urgente de Cursos de IA y tecnologías emergentes",
-    descripcion: "Crear inmediatamente 4 nuevos cursos obligatorios para cerrar la brecha crítica: 'Machine Learning Aplicado' (4 créditos), 'Cloud Computing y Arquitecturas Escalables' (4 créditos), 'Internet de las Cosas y Sistemas Embebidos' (3 créditos), 'Deep Learning y Redes Neuronales' (3 créditos). Reubicar en ciclos 6, 7, 8 y 9 respectivamente.",
+    titulo: "Actualización Curricular Urgente según Artículo 40 de la Ley Universitaria",
+    descripcion: "Fundamentándose en el artículo 40 que permite actualización de planes cada 3 años o por avances científicos/tecnológicos, modernizar inmediatamente nomenclatura: 'Minería de Datos' → 'Machine Learning Aplicado', 'Análisis en Macrodatos' → 'Big Data Analytics', 'Infraestructura de Computación' → 'Cloud Computing y Arquitecturas Escalables'. Incorporar contenidos de TensorFlow, AWS, Docker sin exceder el marco crediticio de artículos 41 y 42.",
     prioridad: "Crítica",
     plazo: "Inmediato (6 meses)"
   },
   {
-    titulo: "Implementación del Eje de Proyectos Interdisciplinarios",
-    descripcion: "Crear obligatoriamente: 'Proyecto Integrador I: Fundamentos' (3 créditos, ciclo 3), 'Proyecto Integrador II: Desarrollo de Software' (4 créditos, ciclo 5), 'Proyecto Integrador III: Soluciones Tecnológicas' (4 créditos, ciclo 7). Cada proyecto debe involucrar múltiples disciplinas y resolver problemas reales de la industria.",
+    titulo: "Implementación de Proyectos Interdisciplinarios bajo Marco Legal",
+    descripcion: "Aprovechando el artículo 40 sobre actualización por conveniencia metodológica, crear: 'Proyecto Integrador I: Fundamentos' (3 créditos, ciclo 3), 'Proyecto Integrador II: Desarrollo de Software' (4 créditos, ciclo 5), 'Proyecto Integrador III: Soluciones Tecnológicas' (4 créditos, ciclo 7). Mantener dentro del marco de artículos 41 y 42 optimizando créditos existentes.",
     prioridad: "Alta",
     plazo: "Corto (1 año)"
   },
   {
-    titulo: "Reducción Inmediata de Sobrecarga Académica",
-    descripcion: "Reducir créditos totales de 200 a máximo 190. Modularizar 'Cálculo Diferencial e Integral Avanzado' (7 créditos) en 'Cálculo Multivariable' (4 créditos) y 'Matemática Aplicada' (3 créditos). Limitar ciclos a máximo 5 cursos o 20 créditos. Reubicar cursos como 'Idioma Extranjero' a modalidad virtual o intersemestral.",
+    titulo: "Optimización de Carga Crediticia según Artículos 41 y 42",
+    descripcion: "Considerando que los artículos 41 y 42 establecen mínimo 200 créditos, optimizar la actual carga de 200 créditos redistribuyendo eficientemente. Modularizar 'Cálculo Diferencial e Integral Avanzado' (7 créditos) en cursos de 4 y 3 créditos. Limitar ciclos a máximo 20 créditos para evitar sobrecarga innecesaria manteniendo calidad académica.",
     prioridad: "Alta",
     plazo: "Corto (8 meses)"
   },
   {
-    titulo: "Modernización Integral de Nomenclatura y Sílabos",
-    descripcion: "Actualizar inmediatamente: 'Minería de Datos' → 'Machine Learning y Analítica Predictiva', 'Análisis en Macrodatos' → 'Big Data Analytics y Visualización', 'Infraestructura de Computación' → 'Cloud Computing y DevOps', 'Programación Evolutiva' → 'Algoritmos Evolutivos y Optimización'. Incluir contenidos de frameworks actuales (TensorFlow, AWS, Docker).",
+    titulo: "Actualización de Sílabos según Avances Tecnológicos del Artículo 40",
+    descripcion: "Respaldándose en el artículo 40 que permite modificaciones por avances científicos y tecnológicos, actualizar sílabos incorporando herramientas actuales: Python, TensorFlow, Kubernetes, metodologías DevOps, frameworks de Machine Learning. Modernizar laboratorios y casos de estudio sin modificar estructura crediticia establecida en artículos 41 y 42.",
     prioridad: "Alta",
     plazo: "Inmediato (4 meses)"
   },

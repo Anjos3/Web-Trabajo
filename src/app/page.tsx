@@ -133,9 +133,9 @@ export default function Home() {
           <CurriculumGrid mallas={currentData.mallas} />
         </section>
 
-        <section>
+        {/* <section>
           <RadarChart puntajes={currentData.puntajes} />
-        </section>
+        </section> */}
 
         <section>
           <FODAAnalysis foda={currentData.foda} />

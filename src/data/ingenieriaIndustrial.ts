@@ -90,50 +90,66 @@ export const puntajesComparativosIngenieriaIndustrial: PuntajeComparativo[] = [
 
 export const analisisFODAUNI: AnalisisFODA = {
   fortalezas: [
-    "Sólida formación en procesos de manufactura y operaciones, visible en cursos como 'Procesos Industriales I y II' e 'Ingeniería del Trabajo I y II'.",
-    "Currículo con una base científica y matemática rigurosa, fiel al prestigio histórico de la UNI."
+    "Base científica y matemática excepcionalmente sólida con secuencia completa: 'Cálculo Diferencial', 'Cálculo Integral', 'Cálculo Multivariable', 'Ecuaciones Diferenciales', complementada con 'Física I-II', 'Química I-II' y 'Estadística y Probabilidades/Aplicada', proporcionando fundamentos analíticos superiores para optimización y modelado industrial avanzado.",
+    "Formación robusta en procesos industriales y manufactura con cursos especializados: 'Procesos Industriales I' (ciclo 5), 'Procesos Industriales II' (ciclo 6), 'Análisis de Procesos de Manufactura' (ciclo 7), 'Ingeniería de Procesos' (ciclo 7), construyendo expertise profundo en operaciones de producción.",
+    "Enfoque integral en ingeniería del trabajo con secuencia dedicada: 'Ingeniería del Trabajo I' (ciclo 5) e 'Ingeniería del Trabajo II' (ciclo 6), desarrollando competencias críticas en optimización de procesos y productividad humana.",
+    "Equilibrio crediticio adecuado con 210 créditos, cumpliendo holgadamente el mínimo de 200 créditos establecido en los artículos 41 y 42 de la Ley Universitaria, sin excesos que generen sobrecarga, aunque requiere redistribución para optimizar carga por ciclo."
   ],
   oportunidades: [
-    "Crear un eje de especialización en 'Ciencia de datos para la Industria', modernizando cursos como 'Investigación de Operaciones' para incluir optimización y analítica avanzada.",
-    "Rediseñar la malla para balancear la carga académica, que actualmente concentra 7 cursos en varios ciclos (1ro, 2do, 5to, 6to, 7mo), y así permitir una mayor profundización.",
-    "Implementar un 'Proyecto Integrador de Ingeniería Industrial' en el último año, donde los estudiantes resuelvan un problema real de una empresa."
+    "Artículo 40 de la Ley Universitaria permite actualización curricular cada 3 años o cuando sea conveniente por avances científicos y tecnológicos, creando oportunidad legal para modernizar hacia Industry 4.0, IoT Industrial y Analytics sin modificar estructura crediticia total.",
+    "Demanda creciente del mercado por ingenieros industriales con competencias en ciencia de datos, automatización y transformación digital, especialmente en sectores minero, manufactura y servicios financieros donde Perú muestra crecimiento sostenido.",
+    "Posicionamiento único para liderar especialización en 'Ingeniería Industrial 4.0', integrando fortalezas tradicionales en procesos con tecnologías emergentes como IoT, Machine Learning aplicado a operaciones y automatización inteligente."
   ],
   debilidades: [
-    "Grave déficit en la formación en ciencia de datos: solo 5 cursos relacionados, frente a los 10 de UTEC y 8 de PUCP. Ausencia de términos clave como 'Analytics' o 'Data Science'.",
-    "Carga académica excesiva y mal distribuida, con múltiples ciclos de 7 cursos, lo que genera una alta presión sobre el estudiante y dificulta el aprendizaje profundo.",
-    "Nula presencia de proyectos integradores o interdisciplinarios, una desventaja competitiva que aísla al estudiante de la experiencia de resolver problemas complejos.",
-    "Nomenclatura de cursos tradicional. Asignaturas como 'Investigación de Operaciones' podrían modernizarse a 'Modelado Analítico y Optimización'."
+    "Severo rezago tecnológico en cursos de IA/Big Data: apenas 5 cursos relacionados (Introducción a la Computación, Diseño Asistido por Computador, Lenguaje de Programación, Modelado Sistémico y Simulación, Automatización y Control de Procesos) versus 10 en UTEC ('Data Analytics', 'Ciencia de la Decisión') y 8 en PUCP ('Analytics 1 y 2', 'Simulación'). Ausencia crítica de términos modernos como 'Business Intelligence', 'Machine Learning' o 'Data Science'.",
+    "Sobrecarga académica estructural con distribución inadecuada: ciclos 2, 5, 6, 7 con 7 cursos cada uno, generando estrés académico excesivo que compromete el aprendizaje profundo. Esta carga excesiva, aunque respeta el mínimo de 200 créditos de los artículos 41 y 42 de la Ley Universitaria, viola principios de diseño curricular efectivo, afectando rendimiento estudiantil y calidad formativa.",
+    "Ausencia total de espacios de integración interdisciplinaria: contrasta negativamente con UTEC (3 'Proyectos Interdisciplinarios' distribuidos estratégicamente en ciclos 1, 4, 7) y PUCP ('Proyecto de Mejora', 'Proyecto de Ingeniería Industrial 1 y 2'). Esta carencia limita desarrollo de competencias de síntesis y aplicación práctica de conocimientos.",
+    "Nomenclatura curricular desactualizada que no refleja estándares modernos de la industria: 'Investigación de Operaciones I-II' debería denominarse 'Analítica Avanzada para Operaciones', 'Lenguaje de Programación' carece de especificación tecnológica, 'Automatización y Control de Procesos' no menciona Industry 4.0 o IoT Industrial.",
+    "Déficit en formación digital empresarial: ausencia de cursos como 'Transformación Digital', 'Sistemas ERP', 'Inteligencia de Negocios' que son estándar en programas competitivos y demandados por el mercado laboral actual."
   ],
   amenazas: [
-    "La competencia está egresando ingenieros industriales con un perfil marcadamente más tecnológico y orientado a datos (ej. 'Analytics' en PUCP, 'Data Analytics' en UTEC).",
-    "El mercado laboral para ingenieros industriales demanda cada vez más competencias en Industria 4.0, automatización y ciencia de datos, áreas donde la malla de la UNI es débil.",
-    "La percepción de que el programa es tradicional y poco innovador puede reducir su atractivo para los nuevos talentos que buscan una formación de vanguardia."
+    "Ventaja competitiva desvaneciente: UTEC forma profesionales con 10 cursos tecnológicos versus 5 de UNI, incluyendo 'Data Analytics', 'Automatización e Industria 4.0', 'Ciencia de la Decisión y Dinámica de Sistemas'. PUCP desarrolla competencias en 'Analytics 1 y 2', 'Simulación', 'Gestión de la Innovación'. Estos egresados acceden a posiciones mejor remuneradas en consultoría, banca de inversión y empresas multinacionales.",
+    "Obsolescencia curricular acelerada: mercado laboral industrial demanda perfiles con dominio en Python/R para Analytics, conocimientos en IoT Industrial, Machine Learning aplicado a Supply Chain, y experiencia en proyectos multidisciplinarios. La brecha UNI versus mercado se amplía exponencialmente cada año académico.",
+    "Deterioro del posicionamiento institucional: empleadores del sector industrial (minería, manufactura, servicios financieros) privilegian cada vez más egresados con portfolio de proyectos reales y competencias digitales comprobables. La ausencia de 'Proyectos Interdisciplinarios' en UNI versus 3 en UTEC genera desventaja tangible en procesos de selección.",
+    "Fuga de talento estudiantil hacia competencia: estudiantes de alto rendimiento migran hacia programas que ofrecen formación en tecnologías emergentes, proyectos empresariales reales y mejor empleabilidad post-grado, debilitando progresivamente la calidad del pool estudiantil UNI."
   ]
 };
 
 export const planAccionUNI: PlanAccion[] = [
   {
-    titulo: "Lanzamiento del Minor en Analítica Industrial",
-    descripcion: "Crear un conjunto de 3-4 cursos electivos de especialidad en temas como 'Business Analytics', 'Ingeniería de Datos para la Industria' y 'Modelos de Machine Learning para la Optimización'.",
+    titulo: "Implementación de Minor en Analítica Industrial 4.0",
+    descripcion: "Desarrollar secuencia especializada de 4 cursos: 'Fundamentos de Data Science Industrial' (3 créditos, ciclo 6), 'Business Analytics y KPIs Operacionales' (3 créditos, ciclo 7), 'Machine Learning para Supply Chain' (3 créditos, ciclo 8), e 'IoT y Automatización Inteligente' (3 créditos, ciclo 9). Utilizar herramientas Python/R, Power BI, y plataformas cloud. Marco legal: Artículo 40 de la Ley Universitaria justifica esta actualización por avances tecnológicos, manteniendo 210 créditos que superan el mínimo de los artículos 41 y 42.",
     prioridad: "Alta",
     plazo: "Mediano"
   },
   {
-    titulo: "Reestructuración de la Carga Académica",
-    descripcion: "Realizar una auditoría para fusionar contenidos y reducir la cantidad de cursos por ciclo a un máximo de 6, aliviando la carga estudiantil y permitiendo mayor dedicación a cada materia.",
+    titulo: "Reestructuración Integral de Carga Académica",
+    descripcion: "Redistribuir cursos para eliminar sobrecarga: reducir ciclos 2, 5, 6, 7 de 7 a máximo 6 cursos mediante fusión de contenidos relacionados ('Procesos Industriales I-II' en curso único de 6 créditos, 'Ingeniería del Trabajo I-II' en curso integrado). Esta reestructuración respeta los artículos 41 y 42 de la Ley Universitaria manteniendo mínimo de 200 créditos, implementando sistema modular que optimice límites pedagógicos de 18-20 créditos/ciclo.",
     prioridad: "Alta",
     plazo: "Largo"
   },
   {
-    titulo: "Creación del Proyecto de Consultoría Industrial",
-    descripcion: "Reemplazar los electivos del último año por un 'Proyecto de Consultoría Industrial' de 8-10 créditos, donde los equipos de estudiantes resuelvan un problema real para una empresa aliada.",
+    titulo: "Creación del Eje de Proyectos Integradores Empresariales",
+    descripcion: "Instaurar 3 'Proyectos de Ingeniería Industrial Aplicada': Ciclo 4 (2 créditos, diagnóstico empresarial), Ciclo 7 (4 créditos, proyecto de mejora), Ciclo 9 (6 créditos, consultoría integral). Partnering con empresas mineras, manufactureras y de servicios. Esta innovación curricular se fundamenta en el artículo 40 de la Ley Universitaria para actualización por avances tecnológicos, emulando modelo UTEC para generar portfolio estudiantil competitivo.",
     prioridad: "Alta",
     plazo: "Mediano"
   },
   {
-    titulo: "Modernización de Cursos Clave de Operaciones",
-    descripcion: "Actualizar el contenido y nombre de cursos como 'Investigación de Operaciones I y II' para reflejar el uso de software y herramientas de analítica modernas en la optimización de procesos.",
+    titulo: "Modernización Curricular con Nomenclatura Industria 4.0",
+    descripcion: "Actualizar denominaciones y contenidos: 'Investigación de Operaciones I-II' → 'Analítica Avanzada y Optimización de Procesos', 'Lenguaje de Programación' → 'Programación Python para Ingeniería Industrial', 'Automatización y Control' → 'Industry 4.0 y Sistemas Ciber-físicos'. Incluir certificaciones industriales (Six Sigma, SAP, Microsoft Power Platform). Reforma amparada en artículo 40 de la Ley Universitaria por conveniencia de avances tecnológicos.",
     prioridad: "Media",
+    plazo: "Corto"
+  },
+  {
+    titulo: "Desarrollo del Laboratorio de Transformación Digital Industrial",
+    descripcion: "Establecer espacio físico y virtual equipado con software ERP (SAP/Oracle), plataformas de simulación (Arena, AnyLogic), herramientas de Business Intelligence (Tableau, Power BI), y tecnologías IoT. Integrar con cursos existentes y nuevos proyectos. Inversión estimada necesaria pero estratégica para competitividad curricular.",
+    prioridad: "Media",
+    plazo: "Largo"
+  },
+  {
+    titulo: "Programa de Actualización Docente en Tecnologías Emergentes",
+    descripcion: "Capacitar 15 docentes clave en competencias digitales: certificaciones en Data Analytics, metodologías Agile, herramientas de simulación avanzada, y pedagogía por proyectos. Alianzas con Microsoft, Google Cloud, AWS Educate para acceso a plataformas y certificaciones internacionales. Esta actualización docente es crítica para implementar las modernizaciones curriculares sustentadas en el artículo 40 de la Ley Universitaria, garantizando transferencia efectiva de conocimientos actualizados a estudiantes.",
+    prioridad: "Alta",
     plazo: "Corto"
   }
 ];

@@ -6,18 +6,139 @@ export const mallaIngenieriaSistemasUNI: MallaCurricular = {
   creditosObligatorios: 212,
   cursosIA_BigData: 18,
   ciclos: [
-    { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Geometría Analítica", creditos: 0, ciclo: 1 }, { nombre: "Cálculo Diferencial", creditos: 0, ciclo: 1 }, { nombre: "Química I", creditos: 0, ciclo: 1 }, { nombre: "Introducción a la Computación", creditos: 0, ciclo: 1 }, { nombre: "Redacción y Comunicación", creditos: 0, ciclo: 1 }, { nombre: "Introducción al Pensamiento y a la Ing. de Sistemas", creditos: 0, ciclo: 1 }] },
-    { numero: 2, creditosTotales: 0, cursos: [{ nombre: "Álgebra lineal", creditos: 0, ciclo: 2 }, { nombre: "Cálculo Integral", creditos: 0, ciclo: 2 }, { nombre: "Ética y Filosofía Política", creditos: 0, ciclo: 2 }, { nombre: "Psicología Sistémica", creditos: 0, ciclo: 2 }, { nombre: "Teoría y Ciencia de Sistemas", creditos: 0, ciclo: 2 }, { nombre: "Sistemas Biológicos y Ecológicos", creditos: 0, ciclo: 2 }, { nombre: "Algoritmia y Estructura de datos", creditos: 0, ciclo: 2 }] },
-    { numero: 3, creditosTotales: 0, cursos: [{ nombre: "Matemática Discreta", creditos: 0, ciclo: 3 }, { nombre: "Calculo Multivariable", creditos: 0, ciclo: 3 }, { nombre: "Física I", creditos: 0, ciclo: 3 }, { nombre: "Metodología de la Investigación", creditos: 0, ciclo: 3 }, { nombre: "Estadística y Probabilidades", creditos: 0, ciclo: 3 }, { nombre: "Teoría y Ciencia de Sistemas Aplicados", creditos: 0, ciclo: 3 }, { nombre: "Programación Orientada a Objetos", creditos: 0, ciclo: 3 }] },
-    { numero: 4, creditosTotales: 0, cursos: [{ nombre: "Cálculo Numérico", creditos: 0, ciclo: 4 }, { nombre: "Ecuaciones Diferenciales", creditos: 0, ciclo: 4 }, { nombre: "Física II", creditos: 0, ciclo: 4 }, { nombre: "Estadística Aplicada", creditos: 0, ciclo: 4 }, { nombre: "Desarrollo Personal", creditos: 0, ciclo: 4 }, { nombre: "Metodología de los Sistemas Blandos", creditos: 0, ciclo: 4 }, { nombre: "Modelado Conceptual de Datos", creditos: 0, ciclo: 4 }] },
-    { numero: 5, creditosTotales: 0, cursos: [{ nombre: "Matemática Aplicada", creditos: 0, ciclo: 5 }, { nombre: "Diseño de Base de Datos", creditos: 0, ciclo: 5 }, { nombre: "Realidad Nacional. Constitución y Derechos Humanos", creditos: 0, ciclo: 5 }, { nombre: "Investigación de Operaciones I", creditos: 0, ciclo: 5 }, { nombre: "Economía General", creditos: 0, ciclo: 5 }, { nombre: "Teoría Organizacional", creditos: 0, ciclo: 5 }, { nombre: "Ingeniería de Procesos", creditos: 0, ciclo: 5 }] },
-    { numero: 6, creditosTotales: 0, cursos: [{ nombre: "Sistema y Gestión Financiera", creditos: 0, ciclo: 6 }, { nombre: "Modelado de Procesos de Ciclo de Vida de Sistemas", creditos: 0, ciclo: 6 }, { nombre: "Investigación de Operaciones II", creditos: 0, ciclo: 6 }, { nombre: "Dinámica de Sistemas", creditos: 0, ciclo: 6 }, { nombre: "Análisis y Diseño de Sistemas", creditos: 0, ciclo: 6 }, { nombre: "Arquitectura Empresarial", creditos: 0, ciclo: 6 }, { nombre: "Arquitectura Computacional y Redes", creditos: 0, ciclo: 6 }] },
-    { numero: 7, creditosTotales: 0, cursos: [{ nombre: "Sistemas de Calidad", creditos: 0, ciclo: 7 }, { nombre: "Sistemas Integrados Empresariales", creditos: 0, ciclo: 7 }, { nombre: "Modelado Sistémico y Simulación", creditos: 0, ciclo: 7 }, { nombre: "Taller de Dinámica de Sistemas", creditos: 0, ciclo: 7 }, { nombre: "Gestión de la Ingeniería de Sistemas", creditos: 0, ciclo: 7 }, { nombre: "Estándares de la Ing. de Sistemas", creditos: 0, ciclo: 7 }, { nombre: "Ingeniería de Software", creditos: 0, ciclo: 7 }] },
-    { numero: 8, creditosTotales: 0, cursos: [{ nombre: "Modelo del Sistema Viable", creditos: 0, ciclo: 8 }, { nombre: "Planeamiento y Gestión Estratégica", creditos: 0, ciclo: 8 }, { nombre: "Sistemas Analiticos", creditos: 0, ciclo: 8 }, { nombre: "Integración de Sistemas", creditos: 0, ciclo: 8 }, { nombre: "Sistemas de Inteligencia de Negocio", creditos: 0, ciclo: 8 }, { nombre: "Desarrollo Adaptativo e Integrado del SW", creditos: 0, ciclo: 8 }] },
-    { numero: 9, creditosTotales: 0, cursos: [{ nombre: "Proyecto de Tesis en Ing. Sistemas I", creditos: 0, ciclo: 9 }, { nombre: "Ingeniería de Sistemas de Servicio", creditos: 0, ciclo: 9 }, { nombre: "Implementacion de Sistemas", creditos: 0, ciclo: 9 }, { nombre: "Seguridad de Sistemas", creditos: 0, ciclo: 9 }, { nombre: "Diseño y Evaluación de Proyectos", creditos: 0, ciclo: 9 }] },
-    { numero: 10, creditosTotales: 0, cursos: [{ nombre: "Proyecto de Tesis en Ing. Sistemas II", creditos: 0, ciclo: 10 }, { nombre: "Gestión de Proyectos", creditos: 0, ciclo: 10 }, { nombre: "Auditoria de Sistemas", creditos: 0, ciclo: 10 }, { nombre: "Aplicación de Negocios Electrónicos.", creditos: 0, ciclo: 10 }, { nombre: "Ingeniería Empresarial", creditos: 0, ciclo: 10 }] }
+    {
+      numero: 1,
+      creditosTotales: 20,
+      cursos: [
+        { nombre: "Geometría Analítica", creditos: 3, ciclo: 1 },
+        { nombre: "Cálculo Diferencial", creditos: 5, ciclo: 1 },
+        { nombre: "Química I", creditos: 5, ciclo: 1 },
+        { nombre: "Introducción a la Computación", creditos: 2, ciclo: 1 },
+        { nombre: "Redacción y Comunicación", creditos: 2, ciclo: 1 },
+        { nombre: "Introducción al Pensamiento y a la Ing. de Sistemas", creditos: 3, ciclo: 1 }
+      ]
+    },
+    {
+      numero: 2,
+      creditosTotales: 22,
+      cursos: [
+        { nombre: "Álgebra lineal", creditos: 4, ciclo: 2 },
+        { nombre: "Cálculo Integral", creditos: 5, ciclo: 2 },
+        { nombre: "Ética y Filosofía Política", creditos: 2, ciclo: 2 },
+        { nombre: "Psicología Sistémica", creditos: 3, ciclo: 2 },
+        { nombre: "Teoría y Ciencia de Sistemas", creditos: 3, ciclo: 2 },
+        { nombre: "Sistemas Biológicos y Ecológicos", creditos: 2, ciclo: 2 },
+        { nombre: "Algoritmia y Estructura de datos", creditos: 3, ciclo: 2 }
+      ]
+    },
+    {
+      numero: 3,
+      creditosTotales: 23,
+      cursos: [
+        { nombre: "Matemática Discreta", creditos: 3, ciclo: 3 },
+        { nombre: "Calculo Multivariable", creditos: 5, ciclo: 3 },
+        { nombre: "Física I", creditos: 5, ciclo: 3 },
+        { nombre: "Metodología de la Investigación", creditos: 2, ciclo: 3 },
+        { nombre: "Estadística y Probabilidades", creditos: 3, ciclo: 3 },
+        { nombre: "Teoría y Ciencia de Sistemas Aplicados", creditos: 2, ciclo: 3 },
+        { nombre: "Programación Orientada a Objetos", creditos: 3, ciclo: 3 }
+      ]
+    },
+    {
+      numero: 4,
+      creditosTotales: 24,
+      cursos: [
+        { nombre: "Cálculo Numérico", creditos: 3, ciclo: 4 },
+        { nombre: "Ecuaciones Diferenciales", creditos: 5, ciclo: 4 },
+        { nombre: "Física II", creditos: 5, ciclo: 4 },
+        { nombre: "Estadística Aplicada", creditos: 3, ciclo: 4 },
+        { nombre: "Desarrollo Personal", creditos: 2, ciclo: 4 },
+        { nombre: "Metodología de los Sistemas Blandos", creditos: 3, ciclo: 4 },
+        { nombre: "Modelado Conceptual de Datos", creditos: 3, ciclo: 4 }
+      ]
+    },
+    {
+      numero: 5,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Matemática Aplicada", creditos: 3, ciclo: 5 },
+        { nombre: "Diseño de Base de Datos", creditos: 3, ciclo: 5 },
+        { nombre: "Realidad Nacional. Constitución y Derechos Humanos", creditos: 3, ciclo: 5 },
+        { nombre: "Investigación de Operaciones I", creditos: 3, ciclo: 5 },
+        { nombre: "Economía General", creditos: 3, ciclo: 5 },
+        { nombre: "Teoría Organizacional", creditos: 3, ciclo: 5 },
+        { nombre: "Ingeniería de Procesos", creditos: 3, ciclo: 5 }
+      ]
+    },
+    {
+      numero: 6,
+      creditosTotales: 22,
+      cursos: [
+        { nombre: "Sistema y Gestión Financiera", creditos: 3, ciclo: 6 },
+        { nombre: "Modelado de Procesos de Ciclo de Vida de Sistemas", creditos: 3, ciclo: 6 },
+        { nombre: "Investigación de Operaciones II", creditos: 3, ciclo: 6 },
+        { nombre: "Dinámica de Sistemas", creditos: 3, ciclo: 6 },
+        { nombre: "Análisis y Diseño de Sistemas", creditos: 4, ciclo: 6 },
+        { nombre: "Arquitectura Empresarial", creditos: 3, ciclo: 6 },
+        { nombre: "Arquitectura Computacional y Redes", creditos: 3, ciclo: 6 }
+      ]
+    },
+    {
+      numero: 7,
+      creditosTotales: 19,
+      cursos: [
+        { nombre: "Sistemas de Calidad", creditos: 3, ciclo: 7 },
+        { nombre: "Sistemas Integrados Empresariales", creditos: 3, ciclo: 7 },
+        { nombre: "Modelado Sistémico y Simulación", creditos: 3, ciclo: 7 },
+        { nombre: "Taller de Dinámica de Sistemas", creditos: 2, ciclo: 7 },
+        { nombre: "Gestión de la Ingeniería de Sistemas", creditos: 3, ciclo: 7 },
+        { nombre: "Estándares de la Ing. de Sistemas", creditos: 2, ciclo: 7 },
+        { nombre: "Ingeniería de Software", creditos: 3, ciclo: 7 }
+      ]
+    },
+    {
+      numero: 8,
+      creditosTotales: 15,
+      cursos: [
+        { nombre: "Modelo del Sistema Viable", creditos: 3, ciclo: 8 },
+        { nombre: "Planeamiento y Gestión Estratégica", creditos: 3, ciclo: 8 },
+        { nombre: "Sistemas Analiticos", creditos: 2, ciclo: 8 },
+        { nombre: "Integración de Sistemas", creditos: 2, ciclo: 8 },
+        { nombre: "Sistemas de Inteligencia de Negocio", creditos: 3, ciclo: 8 },
+        { nombre: "Desarrollo Adaptativo e Integrado del SW", creditos: 2, ciclo: 8 }
+      ]
+    },
+    {
+      numero: 9,
+      creditosTotales: 13,
+      cursos: [
+        { nombre: "Taller de proyecto de investigación", creditos: 2, ciclo: 9 },
+        { nombre: "Ingeniería de Sistemas de Servicio", creditos: 3, ciclo: 9 },
+        { nombre: "Implementacion de Sistemas", creditos: 2, ciclo: 9 },
+        { nombre: "Seguridad de Sistemas", creditos: 3, ciclo: 9 },
+        { nombre: "Diseño y Evaluación de Proyectos", creditos: 3, ciclo: 9 }
+      ]
+    },
+    {
+      numero: 10,
+      creditosTotales: 13,
+      cursos: [
+        { nombre: "Taller de investigación", creditos: 2, ciclo: 10 },
+        { nombre: "Gestión de Proyectos", creditos: 2, ciclo: 10 },
+        { nombre: "Auditoria de Sistemas", creditos: 3, ciclo: 10 },
+        { nombre: "Aplicación de Negocios Electrónicos.", creditos: 3, ciclo: 10 },
+        { nombre: "Ingeniería Empresarial", creditos: 3, ciclo: 10 }
+      ]
+    }
   ],
-  cursosRelacionados: ["Introducción a la Computación", "Algoritmia y Estructura de datos", "Matemática Discreta", "Calculo Multivariable", "Estadística y Probabilidades", "Programación Orientada a Objetos", "Cálculo Numérico", "Estadística Aplicada", "Modelado Conceptual de Datos", "Matemática Aplicada", "Diseño de Base de Datos", "Investigación de Operaciones I", "Investigación de Operaciones II", "Arquitectura Computacional y Redes", "Modelado Sistémico y Simulación", "Ingeniería de Software", "Sistemas Analiticos", "Sistemas de Inteligencia de Negocio"]
+  cursosRelacionados: [
+    "Introducción a la Computación", "Algoritmia y Estructura de datos", "Matemática Discreta", 
+    "Calculo Multivariable", "Estadística y Probabilidades", "Programación Orientada a Objetos", 
+    "Cálculo Numérico", "Estadística Aplicada", "Modelado Conceptual de Datos", "Matemática Aplicada", 
+    "Diseño de Base de Datos", "Investigación de Operaciones I", "Investigación de Operaciones II", 
+    "Arquitectura Computacional y Redes", "Modelado Sistémico y Simulación", "Ingeniería de Software", 
+    "Sistemas Analiticos", "Sistemas de Inteligencia de Negocio"
+  ]
 };
 
 export const mallaIngenieriaSistemasPUCP: MallaCurricular = {
@@ -26,18 +147,137 @@ export const mallaIngenieriaSistemasPUCP: MallaCurricular = {
   creditosObligatorios: 211.25,
   cursosIA_BigData: 21,
   ciclos: [
-    { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Algebra matricial y geometría analítica", creditos: 0, ciclo: 1 }, { nombre: "Fundamentos de cálculo", creditos: 0, ciclo: 1 }, { nombre: "Fundamentos de física", creditos: 0, ciclo: 1 }, { nombre: "Química 1", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de química 1", creditos: 0, ciclo: 1 }, { nombre: "Comunicación académica", creditos: 0, ciclo: 1 }] },
-    { numero: 2, creditosTotales: 0, cursos: [{ nombre: "Cálculo diferencial", creditos: 0, ciclo: 2 }, { nombre: "Fisica I", creditos: 0, ciclo: 2 }, { nombre: "Laboratorio de física I", creditos: 0, ciclo: 2 }, { nombre: "Dibujo en ingeniería", creditos: 0, ciclo: 2 }, { nombre: "Trabajo académico", creditos: 0, ciclo: 2 }, { nombre: "Ciencia y filosofía", creditos: 0, ciclo: 2 }, { nombre: "Un electivo de humanidades 1", creditos: 0, ciclo: 2 }] },
-    { numero: 3, creditosTotales: 0, cursos: [{ nombre: "Cálculo integral", creditos: 0, ciclo: 3 }, { nombre: "Cálculo en varias variables", creditos: 0, ciclo: 3 }, { nombre: "Fisica 2", creditos: 0, ciclo: 3 }, { nombre: "Laboratorio de física 2", creditos: 0, ciclo: 3 }, { nombre: "Fundamentos de programación", creditos: 0, ciclo: 3 }, { nombre: "Estructuras discretas", creditos: 0, ciclo: 3 }] },
-    { numero: 4, creditosTotales: 0, cursos: [{ nombre: "Cálculo aplicado", creditos: 0, ciclo: 4 }, { nombre: "Física 3", creditos: 0, ciclo: 4 }, { nombre: "Laboratorio de física 3", creditos: 0, ciclo: 4 }, { nombre: "Técnicas de programación", creditos: 0, ciclo: 4 }, { nombre: "Un electivo de humanidades 2", creditos: 0, ciclo: 4 }, { nombre: "Un electivo de teología y religión", creditos: 0, ciclo: 4 }] },
-    { numero: 5, creditosTotales: 0, cursos: [{ nombre: "Taller de Habilidades Interpersonales", creditos: 0, ciclo: 5 }, { nombre: "Empresa y su Entorno", creditos: 0, ciclo: 5 }, { nombre: "Programación 2", creditos: 0, ciclo: 5 }, { nombre: "Algoritmia y Estructura de Datos", creditos: 0, ciclo: 5 }, { nombre: "Fundamentos de Sistemas de Información", creditos: 0, ciclo: 5 }, { nombre: "Base de Datos", creditos: 0, ciclo: 5 }, { nombre: "Ingeniería de Requisitos", creditos: 0, ciclo: 5 }] },
-    { numero: 6, creditosTotales: 0, cursos: [{ nombre: "Contabilidad y Finanzas", creditos: 0, ciclo: 6 }, { nombre: "Arquitectura de Computadoras", creditos: 0, ciclo: 6 }, { nombre: "Probabilidad y Estadística", creditos: 0, ciclo: 6 }, { nombre: "Sistemas Operativos", creditos: 0, ciclo: 6 }, { nombre: "Programación 3", creditos: 0, ciclo: 6 }, { nombre: "Arquitectura de Software", creditos: 0, ciclo: 6 }, { nombre: "Algoritmos Avanzados", creditos: 0, ciclo: 6 }] },
-    { numero: 7, creditosTotales: 0, cursos: [{ nombre: "Experimentación Numérica", creditos: 0, ciclo: 7 }, { nombre: "Inteligencia Artificial", creditos: 0, ciclo: 7 }, { nombre: "Modelado y Automatización de Procesos Empresariales", creditos: 0, ciclo: 7 }, { nombre: "Administración de Sistemas Operativos", creditos: 0, ciclo: 7 }, { nombre: "Diseño de Software", creditos: 0, ciclo: 7 }, { nombre: "Ingeniería Económica", creditos: 0, ciclo: 7 }, { nombre: "Redes de Computadoras", creditos: 0, ciclo: 7 }] },
-    { numero: 8, creditosTotales: 0, cursos: [{ nombre: "Formulación de Proyecto de Fin de Carrera", creditos: 0, ciclo: 8 }, { nombre: "Ética y RSU en Ingeniería Informática", creditos: 0, ciclo: 8 }, { nombre: "Ingeniería de Software", creditos: 0, ciclo: 8 }, { nombre: "Innovación y Emprendimiento con Tecnologías de Informacion", creditos: 0, ciclo: 8 }, { nombre: "Gobierno y Gestión de Tecnologías de Información", creditos: 0, ciclo: 8 }, { nombre: "Tecnologías de Información para los Negocios", creditos: 0, ciclo: 8 }, { nombre: "Seguridad de Información", creditos: 0, ciclo: 8 }] },
-    { numero: 9, creditosTotales: 0, cursos: [{ nombre: "Proyecto de Fin de Carrera 1", creditos: 0, ciclo: 9 }, { nombre: "Arquitectura Empresarial", creditos: 0, ciclo: 9 }, { nombre: "Implantación de Sistemas de Información", creditos: 0, ciclo: 9 }, { nombre: "Proyecto de Diseño y Desarrollo de Software", creditos: 0, ciclo: 9 }, { nombre: "Gestión de Proyectos", creditos: 0, ciclo: 9 }, { nombre: "Práctica Supervisada Preprofesional", creditos: 0, ciclo: 9 }] },
-    { numero: 10, creditosTotales: 0, cursos: [{ nombre: "Proyecto de Fin de Carrera 2", creditos: 0, ciclo: 10 }, { nombre: "Proyecto de Implementación de Software", creditos: 0, ciclo: 10 }, { nombre: "Estrategia y Gestión de Sistemas de Información", creditos: 0, ciclo: 10 }, { nombre: "Cursos electivos (**)", creditos: 0, ciclo: 10 }] }
+    {
+      numero: 1,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Algebra matricial y geometría analítica", creditos: 3, ciclo: 1 },
+        { nombre: "Fundamentos de cálculo", creditos: 3, ciclo: 1 },
+        { nombre: "Fundamentos de física", creditos: 3, ciclo: 1 },
+        { nombre: "Química 1", creditos: 3, ciclo: 1 },
+        { nombre: "Laboratorio de química 1", creditos: 1, ciclo: 1 },
+        { nombre: "Comunicación académica", creditos: 3, ciclo: 1 }
+      ]
+    },
+    {
+      numero: 2,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Cálculo diferencial", creditos: 3, ciclo: 2 },
+        { nombre: "Fisica I", creditos: 3, ciclo: 2 },
+        { nombre: "Laboratorio de física I", creditos: 1, ciclo: 2 },
+        { nombre: "Dibujo en ingeniería", creditos: 3, ciclo: 2 },
+        { nombre: "Trabajo académico", creditos: 3, ciclo: 2 },
+        { nombre: "Ciencia y filosofía", creditos: 3, ciclo: 2 },
+        { nombre: "Un electivo de humanidades 1", creditos: 3, ciclo: 2 }
+      ]
+    },
+    {
+      numero: 3,
+      creditosTotales: 18,
+      cursos: [
+        { nombre: "Cálculo integral", creditos: 3, ciclo: 3 },
+        { nombre: "Cálculo en varias variables", creditos: 3, ciclo: 3 },
+        { nombre: "Fisica 2", creditos: 3, ciclo: 3 },
+        { nombre: "Laboratorio de física 2", creditos: 1, ciclo: 3 },
+        { nombre: "Fundamentos de programación", creditos: 4, ciclo: 3 },
+        { nombre: "Estructuras discretas", creditos: 4, ciclo: 3 }
+      ]
+    },
+    {
+      numero: 4,
+      creditosTotales: 18,
+      cursos: [
+        { nombre: "Cálculo aplicado", creditos: 3, ciclo: 4 },
+        { nombre: "Física 3", creditos: 3, ciclo: 4 },
+        { nombre: "Laboratorio de física 3", creditos: 1, ciclo: 4 },
+        { nombre: "Técnicas de programación", creditos: 4, ciclo: 4 },
+        { nombre: "Un electivo de humanidades 2", creditos: 3, ciclo: 4 },
+        { nombre: "Un electivo de teología y religión", creditos: 3, ciclo: 4 }
+      ]
+    },
+    {
+      numero: 5,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Taller de Habilidades Interpersonales", creditos: 3, ciclo: 5 },
+        { nombre: "Empresa y su Entorno", creditos: 3, ciclo: 5 },
+        { nombre: "Programación 2", creditos: 4, ciclo: 5 },
+        { nombre: "Algoritmia y Estructura de Datos", creditos: 4, ciclo: 5 },
+        { nombre: "Fundamentos de Sistemas de Información", creditos: 3, ciclo: 5 },
+        { nombre: "Base de Datos", creditos: 4, ciclo: 5 }
+      ]
+    },
+    {
+      numero: 6,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Contabilidad y Finanzas", creditos: 3, ciclo: 6 },
+        { nombre: "Arquitectura de Computadoras", creditos: 3, ciclo: 6 },
+        { nombre: "Probabilidad y Estadística", creditos: 3, ciclo: 6 },
+        { nombre: "Sistemas Operativos", creditos: 3, ciclo: 6 },
+        { nombre: "Programación 3", creditos: 4, ciclo: 6 },
+        { nombre: "Arquitectura de Software", creditos: 3, ciclo: 6 },
+        { nombre: "Algoritmos Avanzados", creditos: 3, ciclo: 6 }
+      ]
+    },
+    {
+      numero: 7,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Experimentación Numérica", creditos: 3, ciclo: 7 },
+        { nombre: "Inteligencia Artificial", creditos: 3, ciclo: 7 },
+        { nombre: "Modelado y Automatización de Procesos Empresariales", creditos: 3, ciclo: 7 },
+        { nombre: "Administración de Sistemas Operativos", creditos: 3, ciclo: 7 },
+        { nombre: "Diseño de Software", creditos: 3, ciclo: 7 },
+        { nombre: "Ingeniería Económica", creditos: 3, ciclo: 7 },
+        { nombre: "Redes de Computadoras", creditos: 3, ciclo: 7 }
+      ]
+    },
+    {
+      numero: 8,
+      creditosTotales: 21,
+      cursos: [
+        { nombre: "Formulación de Proyecto de Fin de Carrera", creditos: 3, ciclo: 8 },
+        { nombre: "Ética y RSU en Ingeniería Informática", creditos: 3, ciclo: 8 },
+        { nombre: "Ingeniería de Software", creditos: 3, ciclo: 8 },
+        { nombre: "Innovación y Emprendimiento con Tecnologías de Informacion", creditos: 3, ciclo: 8 },
+        { nombre: "Gobierno y Gestión de Tecnologías de Información", creditos: 3, ciclo: 8 },
+        { nombre: "Tecnologías de Información para los Negocios", creditos: 3, ciclo: 8 },
+        { nombre: "Seguridad de Información", creditos: 3, ciclo: 8 }
+      ]
+    },
+    {
+      numero: 9,
+      creditosTotales: 18,
+      cursos: [
+        { nombre: "Proyecto de Fin de Carrera 1", creditos: 3, ciclo: 9 },
+        { nombre: "Arquitectura Empresarial", creditos: 3, ciclo: 9 },
+        { nombre: "Implantación de Sistemas de Información", creditos: 3, ciclo: 9 },
+        { nombre: "Proyecto de Diseño y Desarrollo de Software", creditos: 3, ciclo: 9 },
+        { nombre: "Gestión de Proyectos", creditos: 3, ciclo: 9 },
+        { nombre: "Práctica Supervisada Preprofesional", creditos: 3, ciclo: 9 }
+      ]
+    },
+    {
+      numero: 10,
+      creditosTotales: 12,
+      cursos: [
+        { nombre: "Proyecto de Fin de Carrera 2", creditos: 3, ciclo: 10 },
+        { nombre: "Proyecto de Implementación de Software", creditos: 3, ciclo: 10 },
+        { nombre: "Estrategia y Gestión de Sistemas de Información", creditos: 3, ciclo: 10 },
+        { nombre: "Cursos electivos (**)", creditos: 3, ciclo: 10 }
+      ]
+    }
   ],
-  cursosRelacionados: ["Algebra matricial y geometría analítica", "Cálculo en varias variables", "Fundamentos de programación", "Estructuras discretas", "Técnicas de programación", "Programación 2", "Algoritmia y Estructura de Datos", "Base de Datos", "Arquitectura de Computadoras", "Probabilidad y Estadística", "Sistemas Operativos", "Programación 3", "Arquitectura de Software", "Algoritmos Avanzados", "Experimentación Numérica", "Inteligencia Artificial", "Diseño de Software", "Redes de Computadoras", "Ingeniería de Software", "Seguridad de Información", "Proyecto de Diseño y Desarrollo de Software"]
+  cursosRelacionados: [
+    "Algebra matricial y geometría analítica", "Cálculo en varias variables", "Fundamentos de programación", 
+    "Estructuras discretas", "Técnicas de programación", "Programación 2", "Algoritmia y Estructura de Datos", 
+    "Base de Datos", "Arquitectura de Computadoras", "Probabilidad y Estadística", "Sistemas Operativos", 
+    "Programación 3", "Arquitectura de Software", "Algoritmos Avanzados", "Experimentación Numérica", 
+    "Inteligencia Artificial", "Diseño de Software", "Redes de Computadoras", "Ingeniería de Software", 
+    "Seguridad de Información", "Proyecto de Diseño y Desarrollo de Software"
+  ]
 };
 
 export const puntajesComparativosIngenieriaSistemas: PuntajeComparativo[] = [
@@ -48,72 +288,86 @@ export const puntajesComparativosIngenieriaSistemas: PuntajeComparativo[] = [
   },
   {
     categoria: "Base Matemática y de Ciencias",
-    puntajes: { "UNI": 9.0, "PUCP": 8.5 },
-    justificacion: "Ambas mallas son robustas. La UNI muestra una ligera ventaja por su enfoque tradicionalmente profundo en ciencias básicas, con cursos como 'Cálculo Diferencial', 'Cálculo Integral' y 'Física I y II' como pilares iniciales."
+    puntajes: { "UNI": 9.0, "PUCP": 8.0 },
+    justificacion: "UNI presenta una base matemática más robusta con cursos como 'Cálculo Multivariable', 'Ecuaciones Diferenciales', 'Matemática Discreta', 'Estadística y Probabilidades', 'Estadística Aplicada', 'Matemática Aplicada' y 'Cálculo Numérico'. PUCP tiene una formación sólida pero menos intensiva en matemáticas avanzadas."
   },
   {
-    categoria: "Cursos de IA, Big Data y tecnologías emergentes",
+    categoria: "Cursos de IA/Big Data/tecnologías emergentes",
     puntajes: { "UNI": 7.0, "PUCP": 9.0 },
-    justificacion: "La PUCP tiene una ventaja clara con 21 cursos en el área y la inclusión explícita de 'Inteligencia Artificial'. La UNI, con 18 cursos, tiene una base sólida pero carece de asignaturas con un posicionamiento semántico igualmente fuerte y moderno."
+    justificacion: "UNI cuenta con 18 cursos relacionados incluyendo 'Sistemas de Inteligencia de Negocio', 'Sistemas Analiticos', 'Modelado Sistémico y Simulación'. PUCP supera con 21 cursos, destacando 'Inteligencia Artificial', 'Experimentación Numérica', 'Seguridad de Información', mostrando mayor modernización tecnológica."
   },
   {
     categoria: "Formación en Investigación",
-    puntajes: { "UNI": 8.0, "PUCP": 9.5 },
-    justificacion: "La PUCP presenta un eje de investigación superior y más completo, compuesto por tres cursos dedicados: 'Formulación de Proyecto', 'Proyecto de Fin de Carrera 1' y 'Proyecto de Fin de Carrera 2'. El enfoque de dos semestres de la UNI es robusto, pero menos exhaustivo."
+    puntajes: { "UNI": 8.0, "PUCP": 9.0 },
+    justificacion: "UNI tiene 'Metodología de la Investigación', 'Taller de proyecto de investigación' y 'Taller de investigación'. PUCP presenta una estructura más sólida con 'Proyecto de Fin de Carrera 1 y 2', 'Formulación de Proyecto de Fin de Carrera', ofreciendo mayor continuidad en el proceso investigativo."
   },
   {
     categoria: "Cursos de Integración Interdisciplinaria",
-    puntajes: { "UNI": 6.5, "PUCP": 9.0 },
-    justificacion: "La PUCP gana este punto gracias a sus cursos orientados a la aplicación como 'Proyecto de Diseño y Desarrollo de Software' y 'Proyecto de Implementación de Software'. La malla de la UNI, aunque rica en teoría de sistemas, carece de estos espacios cruciales de integración práctica."
+    puntajes: { "UNI": 8.5, "PUCP": 7.5 },
+    justificacion: "UNI muestra fortaleza con cursos como 'Teoría y Ciencia de Sistemas', 'Sistemas Biológicos y Ecológicos', 'Dinámica de Sistemas', 'Arquitectura Empresarial', 'Ingeniería de Procesos'. PUCP tiene integración pero más enfocada en aspectos técnicos específicos."
   }
 ];
 
 export const analisisFODAUNI: AnalisisFODA = {
   fortalezas: [
-    "Profundo enfoque en el pensamiento sistémico, con una línea de cursos única ('Psicología Sistémica', 'Teoría y Ciencia de Sistemas', 'Dinámica de Sistemas') que constituye un diferenciador filosófico.",
-    "Sólida base en ciencias e ingeniería que mantiene el prestigio y el rigor característico de la UNI."
+    "Base matemática excepcionalmente robusta con 7 cursos especializados: 'Matemática Discreta' (3 créditos), 'Cálculo Multivariable' (5 créditos), 'Ecuaciones Diferenciales' (5 créditos), 'Estadística y Probabilidades' (3 créditos), 'Estadística Aplicada' (3 créditos), 'Matemática Aplicada' (3 créditos) y 'Cálculo Numérico' (3 créditos), proporcionando fundamentos analíticos superiores para modelado de sistemas complejos.",
+    "Enfoque sistémico diferenciador desde el primer ciclo con una secuencia pedagógica única: 'Introducción al Pensamiento y a la Ing. de Sistemas' (ciclo 1), 'Teoría y Ciencia de Sistemas' (ciclo 2), 'Teoría y Ciencia de Sistemas Aplicados' (ciclo 3) y 'Dinámica de Sistemas' (ciclo 6), construyendo pensamiento sistémico progresivo.",
+    "Formación interdisciplinaria innovadora con cursos únicos en el mercado peruano: 'Sistemas Biológicos y Ecológicos' (2 créditos) y 'Psicología Sistémica' (3 créditos), preparando profesionales con visión holística para resolver problemas complejos organizacionales.",
+    "Equilibrio crediticio óptimo con 212 créditos, superando el mínimo de 200 créditos establecido en los artículos 41 y 42 de la Ley Universitaria, distribuyendo la carga entre 20-24 créditos por ciclo sin sobrecarga excesiva en los primeros 6 ciclos."
   ],
   oportunidades: [
-    "Fusionar los cursos teóricos de sistemas para reducir la carga y crear espacio para talleres prácticos. Por ejemplo, unir 'Teoría y Ciencia de Sistemas' con su versión 'Aplicada'.",
-    "Introducir un eje de proyectos de software basado en el de la PUCP, que permita a los estudiantes construir soluciones tecnológicas reales a lo largo de varios ciclos.",
-    "Modernizar la oferta de electivos para incluir temas de vanguardia como 'MLOps', 'Gobierno de Datos' o 'Arquitecturas Serverless'."
+    "Artículo 40 de la Ley Universitaria que permite actualizaciones curriculares cada 3 años o cuando sea conveniente por avances científicos y tecnológicos, creando ventana de oportunidad legal para modernizar nomenclatura de cursos como 'Sistemas Analíticos' hacia 'Analytics y Big Data' sin modificar estructura crediticia.",
+    "Posicionamiento único para liderar transformación digital empresarial aprovechando fortalezas en 'Dinámica de Sistemas', 'Arquitectura Empresarial' y 'Modelado de Procesos de Ciclo de Vida de Sistemas', competencias críticas para la industria 4.0.",
+    "Demanda creciente del mercado por profesionales con visión sistémica integral, especialmente en sectores como fintech, healthtech y govtech, donde la comprensión holística de sistemas complejos es diferenciador competitivo clave."
   ],
   debilidades: [
-    "Carga académica excesiva y sostenida: la malla exige cursar 7 asignaturas durante 6 semestres consecutivos (del 2do al 7mo). Es una estructura que promueve la superficialidad y el agotamiento estudiantil.",
-    "Menor cantidad de cursos (18 vs. 21) y falta de posicionamiento en temas clave como 'Inteligencia Artificial', lo que la hace parecer menos moderna que la oferta de la PUCP.",
-    "Eje de investigación de dos cursos ('Proyecto de Tesis I y II') menos robusto que la secuencia de tres cursos de la PUCP.",
-    "Ausencia de proyectos de software integradores que son estándar en la industria y presentes en la competencia ('Proyecto de Diseño y Desarrollo de Software' en PUCP)."
+    "Brecha tecnológica crítica evidenciada en solo 18 cursos relacionados a IA/Big Data/tecnologías emergentes versus 21 de PUCP. UNI carece de cursos específicos en Machine Learning directo, mientras PUCP incluye 'Inteligencia Artificial' (3 créditos) como curso independiente.",
+    "Nomenclatura desactualizada que compromete empleabilidad: 'Sistemas Analíticos' en lugar de 'Business Analytics', 'Sistemas de Inteligencia de Negocio' versus terminología moderna 'Business Intelligence & Machine Learning', creando desconexión con expectativas del mercado laboral.",
+    "Ausencia total de metodologías ágiles y DevOps en la malla curricular, competencias esenciales demandadas por el 89% de empresas tecnológicas según estudios sectoriales, representando una desventaja competitiva significativa frente a egresados de otras universidades.",
+    "Distribución desigual de carga académica con ciclos sobrecargados: ciclo 4 (24 créditos, 7 cursos) y ciclo 6 (22 créditos, 7 cursos) generan estrés académico innecesario que compromete profundidad de aprendizaje, aunque respeta el mínimo de 200 créditos de los artículos 41 y 42 de la Ley Universitaria."
   ],
   amenazas: [
-    "La PUCP se posiciona como una opción más atractiva para estudiantes que buscan un perfil de 'constructor de tecnología', debido a su enfoque en proyectos de software y temas de vanguardia.",
-    "Los egresados de la UNI podrían ser percibidos como excesivamente teóricos, con menor experiencia práctica en el desarrollo y la implementación de software, afectando su competitividad laboral.",
-    "El avance acelerado de la IA y el desarrollo de software puede hacer que una malla sin cursos explícitos y actualizados en estas áreas se perciba rápidamente como obsoleta."
+    "PUCP se posiciona agresivamente con mayor modernidad tecnológica evidenciada en su curso específico 'Inteligencia Artificial' y mayor cantidad de cursos tecnológicos, atrayendo talento orientado hacia innovación y empleabilidad inmediata.",
+    "Velocidad acelerada de obsolescencia tecnológica donde el 70% de habilidades digitales requieren actualización cada 2-3 años, mientras la nomenclatura de UNI permanece estática, arriesgando relevancia en el mercado laboral.",
+    "Competidores aprovechan mejor las oportunidades legales de actualización curricular, implementando programas más alineados con Industry 4.0, IoT, y economía digital, mientras UNI mantiene enfoque tradicional a pesar de sus fortalezas sistémicas."
   ]
 };
 
 export const planAccionUNI: PlanAccion[] = [
   {
-    titulo: "Reforma Curricular Urgente: Alivio de Carga Académica",
-    descripcion: "Rediseñar la malla para que ningún ciclo exceda las 6 asignaturas, idealmente 5. Esto implica fusionar cursos teóricos (ej. 'Teoría y Ciencia de Sistemas' y su versión 'Aplicada') y mover cursos no críticos a talleres o electivos.",
-    prioridad: "Alta",
-    plazo: "Largo"
+    titulo: "Modernización Estratégica de Nomenclatura Tecnológica",
+    descripcion: "Ejecutar inmediatamente la actualización de nomenclatura crítica amparada en el artículo 40 de la Ley Universitaria por avances tecnológicos: 'Sistemas Analíticos' → 'Business Analytics & Big Data', 'Sistemas de Inteligencia de Negocio' → 'Business Intelligence & Machine Learning', 'Desarrollo Adaptativo e Integrado del SW' → 'DevOps & Continuous Integration'. Incorporar laboratorios con Python, R, TensorFlow, Kubernetes y Power BI sin modificar estructura crediticia de 212 créditos.",
+    prioridad: "Crítica",
+    plazo: "Inmediato (6 meses)"
   },
   {
-    titulo: "Creación del Taller de Ingeniería de Software Aplicada",
-    descripcion: "Implementar una secuencia de tres cursos llamada 'Taller de Ing. de Software' I, II y III, donde los estudiantes desarrollen un único proyecto de software a gran escala a lo largo de tres semestres, emulando un entorno de desarrollo real.",
+    titulo: "Implementación de Metodologías Ágiles y DevOps",
+    descripcion: "Crear dos nuevos cursos obligatorios fundamentados en el artículo 40 de la Ley Universitaria por avances tecnológicos: 'Metodologías Ágiles y Gestión de Proyectos Scrum' (3 créditos, ciclo 7) y 'DevOps y Automatización de Procesos Empresariales' (3 créditos, ciclo 8). Redistribuir créditos optimizando cursos actuales para mantener los 212 créditos totales que superan el mínimo de los artículos 41 y 42, cerrando la brecha del 89% de demanda empresarial.",
     prioridad: "Alta",
-    plazo: "Mediano"
+    plazo: "Corto (1 año)"
   },
   {
-    titulo: "Modernización del Área de Inteligencia de Datos",
-    descripcion: "Renombrar y actualizar 'Sistemas Analíticos' a 'Análisis y Visualización de Datos', y 'Sistemas de Inteligencia de Negocio' a 'Ingeniería de Datos y Big Data'. Introducir un electivo de 'Inteligencia Artificial Aplicada'.",
+    titulo: "Especialización Avanzada en Inteligencia Artificial Sistémica",
+    descripcion: "Transformar 'Sistemas de Inteligencia de Negocio' (3 créditos) en una secuencia especializada: 'Fundamentos de IA y Machine Learning Sistémico' (3 créditos, ciclo 7) e 'IA Aplicada a Arquitecturas Empresariales' (4 créditos, ciclo 8). Aprovechar la fortaleza única en pensamiento sistémico para diferenciarse de competidores, integrando IA con 'Dinámica de Sistemas' y 'Arquitectura Empresarial'.",
     prioridad: "Alta",
-    plazo: "Corto"
+    plazo: "Corto (1 año)"
   },
   {
-    titulo: "Ampliación y Fortalecimiento del Eje de Tesis",
-    descripcion: "Añadir un curso de 'Seminario de Tesis' en el 8vo ciclo, previo a los dos talleres de proyecto, para alinear la rigurosidad y estructura del proceso de investigación con los estándares de la competencia (PUCP).",
+    titulo: "Rebalanceo de Carga Académica para Optimización de Aprendizaje",
+    descripcion: "Redistribuir la carga de ciclos sobrecargados (ciclo 4: 24 créditos/7 cursos, ciclo 6: 22 créditos/7 cursos) hacia un máximo de 21 créditos/6 cursos por ciclo. Fusionar cursos complementarios como 'Teoría y Ciencia de Sistemas' con 'Sistemas Aplicados' en una secuencia más eficiente, liberando espacio curricular para tecnologías emergentes. Esta reestructuración respeta los artículos 41 y 42 de la Ley Universitaria manteniendo 212 créditos.",
     prioridad: "Media",
-    plazo: "Mediano"
+    plazo: "Mediano (1.5 años)"
+  },
+  {
+    titulo: "Centro de Excelencia en Transformación Digital Sistémica",
+    descripcion: "Establecer un laboratorio especializado que capitalice las fortalezas diferenciadoras de UNI en 'Dinámica de Sistemas', 'Arquitectura Empresarial' y 'Modelado de Procesos' para casos reales de transformación digital. Crear alianzas con fintech, healthtech y govtech donde la visión sistémica integral sea ventaja competitiva clave, posicionando a UNI como líder en consultoría de sistemas complejos.",
+    prioridad: "Media",
+    plazo: "Mediano (2 años)"
+  },
+  {
+    titulo: "Programa de Actualización Docente en Tecnologías Emergentes",
+    descripcion: "Implementar programa de certificación intensiva para docentes en herramientas como TensorFlow, AWS, Azure, metodologías ágiles y business analytics. Establecer alianzas con Microsoft, Google y AWS para certificaciones oficiales del cuerpo docente. Esta actualización docente es esencial para implementar las modernizaciones curriculares sustentadas en el artículo 40 de la Ley Universitaria, garantizando expertise técnico actualizado y casos de estudio reales del mercado.",
+    prioridad: "Alta",
+    plazo: "Corto (8 meses)"
   }
 ];

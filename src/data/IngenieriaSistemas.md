@@ -1,80 +1,81 @@
 ## Malla de ingeniería de sistemas UNI:
-CICLO		CURSO
-1		Geometría Analítica
-		Cálculo Diferencial
-		Química I
-		Introducción a la Computación
-		Redacción y Comunicación
-		Introducción al Pensamiento y a la Ing. de Sistemas
+CICLO	CRÉDITO	CURSO
+1	3	Geometría Analítica
+	5	Cálculo Diferencial
+	5	Química I
+	2	Introducción a la Computación
+	2	Redacción y Comunicación
+	3	Introducción al Pensamiento y a la Ing. de Sistemas
 		
-2		Álgebra lineal
-		Cálculo Integral
-		Ética y Filosofía Política
-		Psicología Sistémica
-		Teoría y Ciencia de Sistemas
-		Sistemas Biológicos y Ecológicos
-		Algoritmia y Estructura de datos
+2	4	Álgebra lineal
+	5	Cálculo Integral
+	2	Ética y Filosofía Política
+	3	Psicología Sistémica
+	3	Teoría y Ciencia de Sistemas
+	2	Sistemas Biológicos y Ecológicos
+	3	Algoritmia y Estructura de datos
 		
-3		Matemática Discreta
-		Calculo Multivariable
-		Física I
-		Metodología de la Investigación
-		Estadística y Probabilidades
-		Teoría y Ciencia de Sistemas Aplicados
-		Programación Orientada a Objetos
+3	3	Matemática Discreta
+	5	Calculo Multivariable
+	5	Física I
+	2	Metodología de la Investigación
+	3	Estadística y Probabilidades
+	2	Teoría y Ciencia de Sistemas Aplicados
+	3	Programación Orientada a Objetos
 		
-4		Cálculo Numérico
-		Ecuaciones Diferenciales
-		Física II
-		Estadística Aplicada
-		Desarrollo Personal
-		Metodología de los Sistemas Blandos
-		Modelado Conceptual de Datos
+4	3	Cálculo Numérico
+	5	Ecuaciones Diferenciales
+	5	Física II
+	3	Estadística Aplicada
+	2	Desarrollo Personal
+	3	Metodología de los Sistemas Blandos
+	3	Modelado Conceptual de Datos
 		
-5		Matemática Aplicada
-		Diseño de Base de Datos
-		Realidad Nacional. Constitución y Derechos Humanos
-		Investigación de Operaciones I
-		Economía General
-		Teoría Organizacional
-		Ingeniería de Procesos
+5	3	Matemática Aplicada
+	3	Diseño de Base de Datos
+	3	Realidad Nacional. Constitución y Derechos Humanos
+	3	Investigación de Operaciones I
+	3	Economía General
+	3	Teoría Organizacional
+	3	Ingeniería de Procesos
 		
-6		Sistema y Gestión Financiera
-		Modelado de Procesos de Ciclo de Vida de Sistemas
-		Investigación de Operaciones II
-		Dinámica de Sistemas
-		Análisis y Diseño de Sistemas
-		Arquitectura Empresarial
-		Arquitectura Computacional y Redes
+6	3	Sistema y Gestión Financiera
+	3	Modelado de Procesos de Ciclo de Vida de Sistemas
+	3	Investigación de Operaciones II
+	3	Dinámica de Sistemas
+	4	Análisis y Diseño de Sistemas
+	3	Arquitectura Empresarial
+	3	Arquitectura Computacional y Redes
 		
-7		Sistemas de Calidad
-		Sistemas Integrados Empresariales
-		Modelado Sistémico y Simulación
-		Taller de Dinámica de Sistemas
-		Gestión de la Ingeniería de Sistemas
-		Estándares de la Ing. de Sistemas
-		Ingeniería de Software
+7	3	Sistemas de Calidad
+	3	Sistemas Integrados Empresariales
+	3	Modelado Sistémico y Simulación
+	2	Taller de Dinámica de Sistemas
+	3	Gestión de la Ingeniería de Sistemas
+	2	Estándares de la Ing. de Sistemas
+	3	Ingeniería de Software
 		
-8		Modelo del Sistema Viable
-		Planeamiento y Gestión Estratégica
-		Sistemas Analiticos
-		Integración de Sistemas
-		Sistemas de Inteligencia de Negocio
-		Desarrollo Adaptativo e Integrado del SW
-		
-		
-9		Proyecto de Tesis en Ing. Sistemas I
-		Ingeniería de Sistemas de Servicio
-		Implementacion de Sistemas
-		Seguridad de Sistemas
-		Diseño y Evaluación de Proyectos
+8	3	Modelo del Sistema Viable
+	3	Planeamiento y Gestión Estratégica
+	2	Sistemas Analiticos
+	2	Integración de Sistemas
+	3	Sistemas de Inteligencia de Negocio
+	2	Desarrollo Adaptativo e Integrado del SW
 		
 		
-10		Proyecto de Tesis en Ing. Sistemas II
-		Gestión de Proyectos
-		Auditoria de Sistemas
-		Aplicación de Negocios Electrónicos.
-		Ingeniería Empresarial
+9	2	Taller de proyecto de investigación
+	3	Ingeniería de Sistemas de Servicio
+	2	Implementacion de Sistemas
+	3	Seguridad de Sistemas
+	3	Diseño y Evaluación de Proyectos
+		
+		
+10	2	Taller de investigación
+	2	Gestión de Proyectos
+	3	Auditoria de Sistemas
+	3	Aplicación de Negocios Electrónicos.
+	3	Ingeniería Empresarial
+
 Cantidad total de créditos		212
 Cursos relacionados a bigdata,IA y tecnologías emergentes:  18:Introducción a la Computación,Algoritmia y Estructura de datos,Matemática Discreta,Calculo Multivariable,Estadística y Probabilidades,Programación Orientada a Objetos,Cálculo Numérico,Estadística Aplicada,Modelado Conceptual de Datos,Matemática Aplicada,Diseño de Base de Datos,Investigación de Operaciones I,Investigación de Operaciones II,Arquitectura Computacional y Redes,Modelado Sistémico y Simulación,Ingeniería de Software,Sistemas Analiticos,Sistemas de Inteligencia de Negocio
 ## Malla de ingeniería informática PUCP:
