@@ -96,11 +96,9 @@ export const analisisFODAUNI: AnalisisFODA = {
   oportunidades: [
     "Capitalizar la fortaleza en modelamiento para crear un Minor o Mención en 'Modelado y Simulación de Sistemas Ambientales', un diferenciador único en el mercado.",
     "Realizar una reingeniería curricular para reducir la carga de créditos (de 227 a ~215) y de cursos por ciclo, fusionando contenidos introductorios.",
-    "Introducir un eje de proyectos integradores que apliquen la capacidad de modelamiento en problemas reales, conectando con la industria."
   ],
   debilidades: [
     "Carga académica insostenible: 227 créditos totales y 7 cursos por ciclo durante seis semestres consecutivos. Es la malla más pesada y densa, lo que atenta contra la profundización del aprendizaje.",
-    "Ausencia total de cursos de proyectos integradores o interdisciplinarios, una desventaja severa frente a UTEC y PUCP que sí los tienen.",
     "Aunque fuerte en modelamiento, la malla carece de cursos explícitos en temas de vanguardia como 'Economía Circular', 'Soluciones Basadas en la Naturaleza' o 'Análisis de Ciclo de Vida', presentes en la competencia."
   ],
   amenazas: [
