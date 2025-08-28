@@ -3,7 +3,7 @@ import { MallaCurricular, PuntajeComparativo, AnalisisFODA, PlanAccion } from '@
 export const mallaIngenieriaSistemasUNI: MallaCurricular = {
   universidad: "UNI",
   carrera: "Ingeniería de Sistemas",
-  creditosObligatorios: 212,
+  creditosObligatorios: 207,
   cursosIA_BigData: 18,
   ciclos: [
     {
@@ -149,116 +149,120 @@ export const mallaIngenieriaSistemasPUCP: MallaCurricular = {
   ciclos: [
     {
       numero: 1,
-      creditosTotales: 16,
+      creditosTotales: 19.75,
       cursos: [
-        { nombre: "Algebra matricial y geometría analítica", creditos: 4, ciclo: 1 },
-        { nombre: "Fundamentos de cálculo", creditos: 4, ciclo: 1 },
-        { nombre: "Fundamentos de física", creditos: 3, ciclo: 1 },
-        { nombre: "Química 1", creditos: 3, ciclo: 1 },
-        { nombre: "Comunicación académica", creditos: 2, ciclo: 1 }
+        { nombre: "Algebra matricial y geometría analítica", creditos: 4.5, ciclo: 1 },
+        { nombre: "Fundamentos de cálculo", creditos: 4.5, ciclo: 1 },
+        { nombre: "Fundamentos de física", creditos: 3.5, ciclo: 1 },
+        { nombre: "Química 1", creditos: 3.5, ciclo: 1 },
+        { nombre: "Laboratorio de química 1", creditos: 0.75, ciclo: 1 },
+        { nombre: "Comunicación académica", creditos: 3, ciclo: 1 }
       ]
     },
     {
       numero: 2,
-      creditosTotales: 16,
+      creditosTotales: 20,
       cursos: [
-        { nombre: "Cálculo diferencial", creditos: 4, ciclo: 2 },
-        { nombre: "Fisica I", creditos: 4, ciclo: 2 },
-        { nombre: "Dibujo en ingeniería", creditos: 3, ciclo: 2 },
-        { nombre: "Trabajo académico", creditos: 2, ciclo: 2 },
-        { nombre: "Ciencia y filosofía", creditos: 2, ciclo: 2 }
+        { nombre: "Cálculo diferencial", creditos: 4.5, ciclo: 2 },
+        { nombre: "Fisica I", creditos: 4.5, ciclo: 2 },
+        { nombre: "Laboratorio de física I", creditos: 0.5, ciclo: 2 },
+        { nombre: "Dibujo en ingeniería", creditos: 4.5, ciclo: 2 },
+        { nombre: "Trabajo académico", creditos: 3, ciclo: 2 },
+        { nombre: "Ciencia y filosofía", creditos: 3, ciclo: 2 }
       ]
     },
     {
       numero: 3,
-      creditosTotales: 18,
+      creditosTotales: 21.5,
       cursos: [
-        { nombre: "Cálculo integral", creditos: 4, ciclo: 3 },
-        { nombre: "Cálculo en varias variables", creditos: 4, ciclo: 3 },
-        { nombre: "Fisica 2", creditos: 4, ciclo: 3 },
-        { nombre: "Fundamentos de programación", creditos: 2, ciclo: 3 },
-        { nombre: "Estructuras discretas", creditos: 4, ciclo: 3 }
+        { nombre: "Cálculo integral", creditos: 4.5, ciclo: 3 },
+        { nombre: "Cálculo en varias variables", creditos: 4.5, ciclo: 3 },
+        { nombre: "Fisica 2", creditos: 4.5, ciclo: 3 },
+        { nombre: "Laboratorio de física 2", creditos: 0.5, ciclo: 3 },
+        { nombre: "Fundamentos de programación", creditos: 3, ciclo: 3 },
+        { nombre: "Estructuras discretas", creditos: 4.5, ciclo: 3 }
       ]
     },
     {
       numero: 4,
-      creditosTotales: 12,
+      creditosTotales: 14.5,
       cursos: [
-        { nombre: "Cálculo aplicado", creditos: 4, ciclo: 4 },
-        { nombre: "Física 3", creditos: 4, ciclo: 4 },
-        { nombre: "Técnicas de programación", creditos: 4, ciclo: 4 }
+        { nombre: "Cálculo aplicado", creditos: 4.5, ciclo: 4 },
+        { nombre: "Física 3", creditos: 4.5, ciclo: 4 },
+        { nombre: "Laboratorio de física 3", creditos: 0.5, ciclo: 4 },
+        { nombre: "Técnicas de programación", creditos: 5, ciclo: 4 }
       ]
     },
     {
       numero: 5,
-      creditosTotales: 19,
+      creditosTotales: 22,
       cursos: [
         { nombre: "Taller de Habilidades Interpersonales", creditos: 1, ciclo: 5 },
         { nombre: "Empresa y su Entorno", creditos: 2, ciclo: 5 },
-        { nombre: "Programación 2", creditos: 4, ciclo: 5 },
-        { nombre: "Algoritmia y Estructura de Datos", creditos: 3, ciclo: 5 },
-        { nombre: "Fundamentos de Sistemas de Información", creditos: 3, ciclo: 5 },
-        { nombre: "Base de Datos", creditos: 3, ciclo: 5 },
-        { nombre: "Ingeniería de Requisitos", creditos: 3, ciclo: 5 }
+        { nombre: "Programación 2", creditos: 5, ciclo: 5 },
+        { nombre: "Algoritmia y Estructura de Datos", creditos: 3.5, ciclo: 5 },
+        { nombre: "Fundamentos de Sistemas de Información", creditos: 3.5, ciclo: 5 },
+        { nombre: "Base de Datos", creditos: 3.5, ciclo: 5 },
+        { nombre: "Ingeniería de Requisitos", creditos: 3.5, ciclo: 5 }
       ]
     },
     {
       numero: 6,
-      creditosTotales: 18,
+      creditosTotales: 21.5,
       cursos: [
-        { nombre: "Contabilidad y Finanzas", creditos: 2, ciclo: 6 },
-        { nombre: "Arquitectura de Computadoras", creditos: 3, ciclo: 6 },
-        { nombre: "Probabilidad y Estadística", creditos: 3, ciclo: 6 },
-        { nombre: "Sistemas Operativos", creditos: 2, ciclo: 6 },
-        { nombre: "Programación 3", creditos: 4, ciclo: 6 },
-        { nombre: "Arquitectura de Software", creditos: 2, ciclo: 6 },
-        { nombre: "Algoritmos Avanzados", creditos: 2, ciclo: 6 }
+        { nombre: "Contabilidad y Finanzas", creditos: 2.5, ciclo: 6 },
+        { nombre: "Arquitectura de Computadoras", creditos: 3.5, ciclo: 6 },
+        { nombre: "Probabilidad y Estadística", creditos: 3.5, ciclo: 6 },
+        { nombre: "Sistemas Operativos", creditos: 2.5, ciclo: 6 },
+        { nombre: "Programación 3", creditos: 5, ciclo: 6 },
+        { nombre: "Arquitectura de Software", creditos: 2.5, ciclo: 6 },
+        { nombre: "Algoritmos Avanzados", creditos: 2.5, ciclo: 6 }
       ]
     },
     {
       numero: 7,
-      creditosTotales: 18,
+      creditosTotales: 21.5,
       cursos: [
         { nombre: "Experimentación Numérica", creditos: 2, ciclo: 7 },
-        { nombre: "Inteligencia Artificial", creditos: 3, ciclo: 7 },
-        { nombre: "Modelado y Automatización de Procesos Empresariales", creditos: 3, ciclo: 7 },
-        { nombre: "Administración de Sistemas Operativos", creditos: 2, ciclo: 7 },
-        { nombre: "Diseño de Software", creditos: 2, ciclo: 7 },
-        { nombre: "Ingeniería Económica", creditos: 3, ciclo: 7 },
-        { nombre: "Redes de Computadoras", creditos: 3, ciclo: 7 }
+        { nombre: "Inteligencia Artificial", creditos: 3.5, ciclo: 7 },
+        { nombre: "Modelado y Automatización de Procesos Empresariales", creditos: 3.5, ciclo: 7 },
+        { nombre: "Administración de Sistemas Operativos", creditos: 2.5, ciclo: 7 },
+        { nombre: "Diseño de Software", creditos: 2.5, ciclo: 7 },
+        { nombre: "Ingeniería Económica", creditos: 3.5, ciclo: 7 },
+        { nombre: "Redes de Computadoras", creditos: 4, ciclo: 7 }
       ]
     },
     {
       numero: 8,
-      creditosTotales: 19,
+      creditosTotales: 21.5,
       cursos: [
         { nombre: "Formulación de Proyecto de Fin de Carrera", creditos: 2, ciclo: 8 },
-        { nombre: "Ética y RSU en Ingeniería Informática", creditos: 2, ciclo: 8 },
-        { nombre: "Ingeniería de Software", creditos: 3, ciclo: 8 },
+        { nombre: "Ética y RSU en Ingeniería Informática", creditos: 2.5, ciclo: 8 },
+        { nombre: "Ingeniería de Software", creditos: 3.5, ciclo: 8 },
         { nombre: "Innovación y Emprendimiento con Tecnologías de Informacion", creditos: 3, ciclo: 8 },
-        { nombre: "Gobierno y Gestión de Tecnologías de Información", creditos: 3, ciclo: 8 },
-        { nombre: "Tecnologías de Información para los Negocios", creditos: 3, ciclo: 8 },
-        { nombre: "Seguridad de Información", creditos: 3, ciclo: 8 }
+        { nombre: "Gobierno y Gestión de Tecnologías de Información", creditos: 3.5, ciclo: 8 },
+        { nombre: "Tecnologías de Información para los Negocios", creditos: 3.5, ciclo: 8 },
+        { nombre: "Seguridad de Información", creditos: 3.5, ciclo: 8 }
       ]
     },
     {
       numero: 9,
-      creditosTotales: 13,
+      creditosTotales: 14,
       cursos: [
         { nombre: "Proyecto de Fin de Carrera 1", creditos: 2, ciclo: 9 },
         { nombre: "Arquitectura Empresarial", creditos: 3, ciclo: 9 },
         { nombre: "Implantación de Sistemas de Información", creditos: 3, ciclo: 9 },
-        { nombre: "Proyecto de Diseño y Desarrollo de Software", creditos: 2, ciclo: 9 },
+        { nombre: "Proyecto de Diseño y Desarrollo de Software", creditos: 3, ciclo: 9 },
         { nombre: "Gestión de Proyectos", creditos: 3, ciclo: 9 }
       ]
     },
     {
       numero: 10,
-      creditosTotales: 10,
+      creditosTotales: 8.5,
       cursos: [
         { nombre: "Proyecto de Fin de Carrera 2", creditos: 2, ciclo: 10 },
-        { nombre: "Proyecto de Implementación de Software", creditos: 2, ciclo: 10 },
-        { nombre: "Estrategia y Gestión de Sistemas de Información", creditos: 3, ciclo: 10 }
+        { nombre: "Proyecto de Implementación de Software", creditos: 3, ciclo: 10 },
+        { nombre: "Estrategia y Gestión de Sistemas de Información", creditos: 3.5, ciclo: 10 }
       ]
     }
   ],

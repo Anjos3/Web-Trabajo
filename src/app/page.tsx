@@ -46,8 +46,8 @@ import {
 } from '@/data/ingenieriaIndustrial';
 
 export default function Home() {
-  const [selectedCareer, setSelectedCareer] = useState('Ciencia de la Computación');
-  const careers = ['Ciencia de la Computación', 'Ingeniería Civil', 'Ingeniería de Sistemas', 'Ingeniería Ambiental', 'Ingeniería Industrial'];
+  const [selectedCareer, setSelectedCareer] = useState('Ingeniería Industrial');
+  const careers = ['Ingeniería Industrial', 'Ingeniería de Sistemas', 'Ciencia de la Computación', 'Ingeniería Civil', 'Ingeniería Ambiental'];
 
   const getCurrentData = () => {
     switch (selectedCareer) {
