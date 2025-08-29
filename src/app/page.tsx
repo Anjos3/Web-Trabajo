@@ -6,6 +6,7 @@ import CurriculumGrid from '@/components/CurriculumGrid';
 import RadarChart from '@/components/RadarChart';
 import FODAAnalysis from '@/components/FODAAnalysis';
 import ActionPlan from '@/components/ActionPlan';
+import ExcelExporter from '@/components/ExcelExporter';
 import { 
   mallaCienciaComputacionUNI, 
   mallaCienciaComputacionUTEC,
@@ -108,6 +109,17 @@ export default function Home() {
         selectedCareer={selectedCareer}
         onCareerChange={setSelectedCareer}
       />
+      
+      {/* Botón de descarga Excel */}
+      <div className="text-center mb-8">
+        <ExcelExporter 
+          carrera={selectedCareer}
+          mallas={currentData.mallas}
+          foda={currentData.foda}
+          plan={currentData.plan}
+          puntajes={currentData.puntajes}
+        />
+      </div>
       
       <div className="space-y-12">
         <section>

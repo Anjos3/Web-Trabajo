@@ -23,7 +23,7 @@ export const mallaIngenieriaAmbientalUNI: MallaCurricular = {
 export const mallaIngenieriaAmbientalPUCP: MallaCurricular = {
   universidad: "PUCP",
   carrera: "Ingeniería Ambiental",
-  creditosObligatorios: 209,
+  creditosObligatorios: 213,
   cursosIA_BigData: 8, // Big Data (3) + tecnologías emergentes (5)
   ciclos: [
     { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Álgebra matricial y geometría analítica", creditos: 0, ciclo: 1 }, { nombre: "Fundamentos de cálculo", creditos: 0, ciclo: 1 }, { nombre: "Fundamentos de física", creditos: 0, ciclo: 1 }, { nombre: "Química 1", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de química 1", creditos: 0, ciclo: 1 }, { nombre: "Taller de innovación en ingeniería ambiental", creditos: 0, ciclo: 1 }, { nombre: "Comunicación académica", creditos: 0, ciclo: 1 }] },
@@ -43,7 +43,7 @@ export const mallaIngenieriaAmbientalPUCP: MallaCurricular = {
 export const mallaIngenieriaAmbientalUTEC: MallaCurricular = {
   universidad: "UTEC",
   carrera: "Ingeniería Ambiental",
-  creditosObligatorios: 214,
+  creditosObligatorios: 213,
   cursosIA_BigData: 9, // Big Data (4) + tecnologías emergentes (4) + IA (1)
   ciclos: [
     { numero: 1, creditosTotales: 0, cursos: [{ nombre: "Programación I", creditos: 0, ciclo: 1 }, { nombre: "Cálculo de una Variable", creditos: 0, ciclo: 1 }, { nombre: "Química General", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de Química General", creditos: 0, ciclo: 1 }, { nombre: "Introducción a la Ingeniería Ambiental", creditos: 0, ciclo: 1 }, { nombre: "Laboratorio de Comunicación 1", creditos: 0, ciclo: 1 }, { nombre: "Proyectos Interdisciplinarios 1", creditos: 0, ciclo: 1 }] },
